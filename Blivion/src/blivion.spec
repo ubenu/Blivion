@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['blivion.py'],
-             pathex=['C:\\Users\\schilsm\\Dropbox\\Crick\\Programming\\Deployment\\Blivion'],
+             pathex=['C:\\Users\\schilsm\\git\\blivion\\Blivion\\src'],
              binaries=[],
              datas=[],
              hiddenimports=[],
