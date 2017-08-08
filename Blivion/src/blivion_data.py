@@ -10,10 +10,11 @@ import pandas as pd
 from scipy.optimize import curve_fit
 
 pd.options.mode.chained_assignment = None  
-# suppresses unnecessary warning when creating self.working_data
-#import warnings
-#warnings.simplefilter(action = "ignore", category = RuntimeWarning)
-# suppresses unnecessary runtime warnings when fitting data
+## suppresses unnecessary warning when creating self.working_data
+
+# import warnings
+# warnings.simplefilter(action = "ignore", category = RuntimeWarning)
+## suppresses unnecessary runtime warnings when fitting data
 
 class BlivionData():
     
@@ -47,6 +48,10 @@ class BlivionData():
         self.data_reduction_factor = 5
         self.fit_func_id = 'fn_2exp'
         self.frac_sat_func_id = 'fn_hill'
+        
+        # Log and progress monitor
+        self.process_log = ""
+        self.progress_monitor = 0
      
     def import_data(self, file_path):
         self.raw_data = pd.read_csv(file_path)
@@ -103,6 +108,9 @@ class BlivionData():
         self.fitted['loaded'] = fit
 
     def set_association_measurements(self, start, stop):
+        self.process_log += "\n\n**** New attempt ****\n"
+        self.progress_monitor = 100.
+        self.progress_monitor_step = self.progress_monitor / len(self.trace_ids)
         indmin, indmax = self._get_span_indices(start, stop)
         selection = self.working_data[indmin:indmax]
         self.results['association'] = 0.0
@@ -124,10 +132,30 @@ class BlivionData():
             y = selection[trace]
             p_est = self.get_initial_estimates(self.fit_func_id, x, y)
             params = None
-            try:
-                params, covar = curve_fit(func, x, y, p0=p_est) #, method='trf')
-#                params, covar, infodict, errmsg, ier = curve_fit(func, 
-#                    x, y, p_est, full_output=1)
+            ftol, xtol = 1.0e-9, 1.0e-9
+            while params is None and ftol < 1.0:
+                try:
+                    ftol *= 10.
+                    xtol *= 10.
+                    out = curve_fit(func, x, y, p0=p_est, ftol=ftol, xtol=xtol, maxfev=250, full_output=1) 
+                    params = out[0]
+                    covar = out[1]
+                    nfev = out[2]['nfev']
+                    log_entry = "\n" + trace + "\tnfev:" + str(nfev)+ "\tftol:" + str(ftol)
+                    self.process_log += log_entry
+                    self.progress_monitor -= self.progress_monitor_step
+#                     print(self.progress_monitor)
+                except ValueError as e:
+                    log_entry = "\n" + trace + "\tValue Error (ass):" + str(e)
+                    self.process_log += log_entry
+                except RuntimeError as e:
+                    log_entry = "\n" + trace + "\tRuntime Error (ass):" + str(e)
+#                     self.process_log += log_entry
+                except:
+                    log_entry = "\n" + trace + "\tOther error (ass)"
+                    self.process_log += log_entry
+                
+            if not params is None:
                 self.results['association'][trace] = params[0]
                 self.results['success'][trace] = 1.0
                 for i in range(len(pnames)):
@@ -137,16 +165,10 @@ class BlivionData():
                 y_res = y - y_fit
                 self.residuals['association'][trace] = y_res
                 self.fitted['association'][trace] = y_fit
-            except ValueError as e:
-                self.current_message = "Value Error (ass):" + str(e)
-            except RuntimeError as e:  
-                self.current_message = "Runtime Error (ass):" + str(e)
-            except:
-                self.current_message = "Other error (ass)"
-        if not params is None:
-            self.results_acquired['association'] = True
-            self.set_measurements()
-        
+                
+        self.results_acquired['association'] = True
+        self.set_measurements()  
+    
     def set_measurements(self):
         if self.results_acquired['baseline'] and self.results_acquired['loaded']:
             sl = (self.results['loaded'] - self.results['baseline'])
@@ -174,18 +196,20 @@ class BlivionData():
                 x = data['Sugar loading']
                 y = data['Amplitude (obs)']
                 p_est = self.get_initial_estimates(self.frac_sat_func_id, x, y)
-                params, covar = curve_fit(func, x, y, p0=p_est, method='trf')
+                params, covar = curve_fit(func, x, y, p0=p_est, check_finite=False, method='trf')
             except ValueError as e:
-                print("Value Error (frac sat):" + str(e))
+                log_entry = "\n" + "Value Error (frac sat):" + str(e)
+                self.process_log += log_entry
             except RuntimeError as e:  
-                print("Runtime Error (frac sat):" + str(e))
+                log_entry = "\n" + "Runtime Error (frac sat):" + str(e)
+                self.process_log += log_entry
             except Exception as e:
-                print("Other error (frac sat)" + str(e))
+                log_entry = "\n" + "Other error (frac sat)" + str(e)
+                self.process_log += log_entry
     
             if not params is None:
                 p = tuple(params)
-                self.fractional_saturation_params = {'ymax': p[0],'xhalf': p[1],
-                                                     'h': p[2]}
+                self.fractional_saturation_params = {'ymax': p[0],'xhalf': p[1], 'h': p[2]}
                 x = self.results['Sugar loading']
                 y_calc = func(x, *p)
                 self.results['Amplitude (calc)'][self.trace_ids] = y_calc
@@ -200,8 +224,7 @@ class BlivionData():
         df['x-half-sat'] = [p['xhalf']]
         df['h'] = [p['h']]
         return df
-
-                    
+        
     def get_fractional_saturation_curve(self, size=3.5, step=0.005):
         max_x = max(size * self.fractional_saturation_params['xhalf'], 
                     self.results['Sugar loading'].max())

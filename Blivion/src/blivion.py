@@ -48,11 +48,6 @@ class Main(widgets.QMainWindow, ui.Ui_MainWindow):
         self.action_get_loads.triggered.connect(self.on_get_loads)
         self.action_get_association.triggered.connect(self.on_get_association)
 
-#        self.action_association_model.triggered.connect(self.on_association_model)
-#        self.action_saturation_model.triggered.connect(self.on_saturation_model)
-#        self.action_phase_boundaries.triggered.connect(self.on_phase_boundaries)
-#        self.action_reduce_n.triggered.connect(self.on_reduce_n)
-        
         self.blivion_data = BlivionData()
         self.file_name = ""
         self.file_path = ""
@@ -71,16 +66,20 @@ class Main(widgets.QMainWindow, ui.Ui_MainWindow):
         self.action_get_base.setEnabled(False)
         self.action_get_loads.setEnabled(False)
         self.action_get_association.setEnabled(False)
+        
+#        main.statusBar.showMessage("Ready")
                 
     def on_open(self):
         file_path = widgets.QFileDialog.getOpenFileName(self, 
         "Open Data File", "", "CSV data files (*.csv);;All files (*.*)")[0]
         if file_path:
+            main.statusBar.showMessage("Reading file...")
             self.file_path = file_path
             info = qt.QFileInfo(file_path)
             self.blivion_data.file_name = info.fileName()
             if self._data_open:
                 self.on_close()
+            main.setWindowTitle("Blivion - " + info.fileName())
             self.blivion_data.import_data(file_path)
             x = self.blivion_data.get_data_x()
             y = self.blivion_data.get_data_y()
@@ -98,6 +97,7 @@ class Main(widgets.QMainWindow, ui.Ui_MainWindow):
             self.action_get_base.setEnabled(True)
             self.action_get_loads.setEnabled(False)
             self.action_get_association.setEnabled(False)
+            main.statusBar.showMessage("Ready")
             
     def on_save(self):
         file_path = widgets.QFileDialog.getSaveFileName(self, 
@@ -106,6 +106,7 @@ class Main(widgets.QMainWindow, ui.Ui_MainWindow):
             self.blivion_data.export_results(file_path)
         
     def on_close(self):
+        main.setWindowTitle("Blivion")
         self.blivion_data = BlivionData()
         self.canvas.clear_figure()
         self._data_open = False
@@ -137,7 +138,6 @@ class Main(widgets.QMainWindow, ui.Ui_MainWindow):
             self._getting_loads = False
             self._getting_association = False
             self.span.set_active(False)   
-            
         
     def on_get_loads(self):
         if self.action_get_loads.isChecked():
@@ -212,6 +212,7 @@ class Main(widgets.QMainWindow, ui.Ui_MainWindow):
     def on_select_span(self, xmin, xmax):
         self.span.set_active(False)
         if self._getting_base:
+            main.statusBar.showMessage("Analysing baseline...")
             self.blivion_data.set_baseline_measurements(xmin, xmax)
             self._draw_results()
             self._draw_analysis()
@@ -219,7 +220,9 @@ class Main(widgets.QMainWindow, ui.Ui_MainWindow):
             self.action_get_loads.setEnabled(True)
             self.action_get_base.setChecked(False)
             self._getting_base = False
+            main.statusBar.showMessage("Ready")
         if self._getting_loads:
+            main.statusBar.showMessage("Analysing loading...")
             self.blivion_data.set_loads_measurements(xmin, xmax)
             self._draw_results()
             self._write_results()
@@ -227,7 +230,9 @@ class Main(widgets.QMainWindow, ui.Ui_MainWindow):
             self.action_get_association.setEnabled(True)
             self.action_get_loads.setChecked(False)
             self._getting_loads = False
+            main.statusBar.showMessage("Ready")
         if self._getting_association:
+            main.statusBar.showMessage("Analysing association phase...")
             self.blivion_data.set_association_measurements(xmin, xmax)
             self._draw_results()
             self._write_results()
@@ -235,6 +240,7 @@ class Main(widgets.QMainWindow, ui.Ui_MainWindow):
             self.action_save.setEnabled(True)
             self.action_get_association.setChecked(False)
             self._getting_association = False
+            main.statusBar.showMessage("Ready")
             
     def _draw_results(self):
         x = self.blivion_data.get_data_x()
@@ -298,6 +304,11 @@ class Main(widgets.QMainWindow, ui.Ui_MainWindow):
             for i in range(len(f.index)):
                 for j in range(len(f.columns)):
                     tbf.setItem(i,j,widgets.QTableWidgetItem(str(f.iat[i, j])))
+
+            l = self.blivion_data.process_log
+            txl = self.txtLog
+            txl.clear()
+            txl.setText(l)
             
         
         

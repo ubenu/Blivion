@@ -4,6 +4,7 @@ Created on Tue Oct 25 13:43:23 2016
 
 @author: Maria Schilstra
 """
+import numpy as np
 #from PyQt5 import QtGui as gui
 #from PyQt5 import QtCore as qt
 from PyQt5 import QtWidgets as widgets
@@ -102,16 +103,17 @@ class MplCanvas(FigureCanvas):
         self.fsat_res_plot.cla()
         y_max, x_half, h = params['ymax'], params['xhalf'], params['h']
         y_obs_norm, y_res_norm, y_fit_norm = y_obs/y_max, y_res/y_max, y_fit/y_max
+        
         self.fsat_plot.plot(x_fit, y_fit_norm, color = 'k')
-        self.fsat_plot.plot(x_obs, y_obs_norm, linestyle='None', marker='o', 
-                                markerfacecolor='r', markersize=12)
+        self.fsat_plot.scatter(x_obs, y_obs_norm, c=self.curve_colours[:8], s=144)
         txtparams = 'Max: {:.1f} \nHalf sat: {:.2f} \nHill coeff: {:.1f}'.format(y_max, x_half, h)
         self.fsat_plot.text(x_half, 0.1, txtparams, fontsize=12)
-        self.fsat_res_plot.plot(x_obs, y_res_norm, linestyle='None', marker='o', 
-                                markerfacecolor='r', markersize=6)
+
+        d = max(y_res_norm) - min(y_res_norm)
+        self.fsat_res_plot.set_ylim([min(y_res_norm) - d, max(y_res_norm) + d])
+        self.fsat_res_plot.scatter(x_obs, y_res_norm, c=self.curve_colours[:8], s=36)
         self.set_fig_annotations()
         self.fig.canvas.draw()
-        
         
     def createVLine(self, pos=0.0, color='k', width=1.0):
         vLine = self.data_plot.axvline(pos)

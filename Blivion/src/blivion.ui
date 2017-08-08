@@ -108,6 +108,16 @@
         </layout>
        </widget>
       </widget>
+      <widget class="QWidget" name="tabLog">
+       <attribute name="title">
+        <string>Log</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QTextEdit" name="txtLog"/>
+        </item>
+       </layout>
+      </widget>
      </widget>
     </item>
    </layout>
@@ -179,6 +189,7 @@
    <addaction name="action_get_association"/>
    <addaction name="separator"/>
   </widget>
+  <widget class="QStatusBar" name="statusBar"/>
   <action name="action_open">
    <property name="icon">
     <iconset resource="blivion.qrc">
