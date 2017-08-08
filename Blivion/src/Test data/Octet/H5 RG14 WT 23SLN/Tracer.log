@@ -1,0 +1,1148 @@
+2    while reading a WORD from address 40101
+13:04:05.6 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:04:11.2 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:04:16.8 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:04:20.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:04:20.2    while reading a WORD from address 40101
+13:04:22.4 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:04:28.0 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:04:33.6 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:04:39.2 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:04:40.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:04:40.2    while reading a WORD from address 40101
+13:04:44.8 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:04:50.4 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:04:56.0 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:05:00.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:05:00.2    while reading a WORD from address 40101
+13:05:01.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:05:02.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:05:02.2    while reading a WORD from address 40101
+13:05:07.2 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:05:12.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:05:18.4 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:05:20.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:05:20.2    while reading a WORD from address 40101
+13:05:24.1 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:05:29.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:05:35.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:05:40.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:05:40.2    while reading a WORD from address 40101
+13:05:40.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:05:46.5 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:05:52.1 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:05:57.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:06:00.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:06:00.2    while reading a WORD from address 40101
+13:06:02.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:06:02.2    while reading a WORD from address 40101
+13:06:03.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:06:08.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:06:14.5 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:06:20.1 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:06:20.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:06:20.2    while reading a WORD from address 40101
+13:06:25.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:06:31.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:06:36.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:06:40.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:06:40.2    while reading a WORD from address 40101
+13:06:42.5 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:06:48.1 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:06:53.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:06:59.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:07:00.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:07:00.2    while reading a WORD from address 40101
+13:07:02.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:07:02.2    while reading a WORD from address 40101
+13:07:04.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:07:10.5 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:07:16.1 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:07:20.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:07:20.2    while reading a WORD from address 40101
+13:07:21.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:07:27.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:07:32.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:07:38.5 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:07:40.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:07:40.2    while reading a WORD from address 40101
+13:07:44.1 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:07:49.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:07:55.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:08:00.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:08:00.2    while reading a WORD from address 40101
+13:08:00.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:08:02.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:08:02.2    while reading a WORD from address 40101
+13:08:06.5 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:08:12.1 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:08:17.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:08:20.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:08:20.2    while reading a WORD from address 40101
+13:08:23.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:08:28.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:08:34.5 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:08:40.1 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:08:40.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:08:40.2    while reading a WORD from address 40101
+13:08:45.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:08:51.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:08:56.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:09:00.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:09:00.2    while reading a WORD from address 40101
+13:09:02.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:09:02.2    while reading a WORD from address 40101
+13:09:02.5 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:09:08.1 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:09:13.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:09:19.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:09:20.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:09:20.2    while reading a WORD from address 40101
+13:09:24.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:09:30.5 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:09:36.1 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:09:40.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:09:40.2    while reading a WORD from address 40101
+13:09:41.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:09:47.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:09:52.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:09:58.5 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:10:00.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:10:00.2    while reading a WORD from address 40101
+13:10:02.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:10:02.2    while reading a WORD from address 40101
+13:10:04.1 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:10:09.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:10:15.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:10:20.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:10:20.2    while reading a WORD from address 40101
+13:10:20.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:10:26.5 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:10:32.1 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:10:37.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:10:40.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:10:40.2    while reading a WORD from address 40101
+13:10:43.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:10:48.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:10:54.5 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:11:00.2 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:11:00.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:11:00.2    while reading a WORD from address 40101
+13:11:02.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:11:02.2    while reading a WORD from address 40101
+13:11:05.7 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:11:11.4 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:11:16.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:11:20.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:11:20.2    while reading a WORD from address 40101
+13:11:22.6 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:11:28.2 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:11:33.8 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:11:39.4 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:11:40.2 Heater error -2: HOST_RECEIVED_TIMEOUT_ERROR
+13:11:40.2    while reading a WORD from address 40101
+13:11:45.0 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:11:50.6 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:11:55.4 Closing application13:11:55.4 
+13:11:56.2 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:12:01.2 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:12:06.2 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:12:11.2 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:12:15.3 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+13:12:15.3 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+13:12:21.5 StopShaker
+13:12:29.5 AcquisitionEngine: DLL_PROCESS_DETACH.
+13:12:29.6 MultiWellPlate: DLL_PROCESS_DETACH.
+13:12:29.7 DataSecurity: DLL_PROCESS_DETACH.
+13:12:38.4 Progress: 0 %
+13:12:38.4 Progress: 12 %
+13:12:38.5 Progress: 25 %
+13:12:38.6 Progress: 37 %
+13:12:38.7 Progress: 50 %
+13:12:38.7 Progress: 62 %
+13:12:38.8 Progress: 75 %
+13:12:38.9 Progress: 87 %
+13:12:38.9 Progress: 100 %
+13:12:39.1 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_3 pS443 Diss\120321_ExpMethod.fmf in 15 ms
+13:12:39.3 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_3 pS443 Diss\120321_ExpMethod.fmf in 0 ms
+13:12:40.3 Progress: 0 %
+13:12:40.4 Progress: 12 %
+13:12:40.4 Progress: 25 %
+13:12:40.4 Progress: 37 %
+13:12:40.4 Progress: 50 %
+13:12:40.4 Progress: 62 %
+13:12:40.4 Progress: 75 %
+13:12:40.4 Progress: 87 %
+13:12:40.4 Progress: 100 %
+13:12:40.4 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_3 pS443 Diss\120321_ExpMethod.fmf in 0 ms
+13:12:40.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_3 pS443 Diss\120321_ExpMethod.fmf in 15 ms
+13:12:41.8 
+13:12:41.8 In StExperiment.Init()
+13:12:41.8 
+13:12:41.8 Time = 0 ms
+13:12:41.8 
+13:13:12.3 Progress: 0 %
+13:13:12.3 Progress: 12 %
+13:13:12.3 Progress: 25 %
+13:13:12.4 Progress: 37 %
+13:13:12.5 Progress: 50 %
+13:13:12.5 Progress: 62 %
+13:13:12.6 Progress: 75 %
+13:13:12.7 Progress: 87 %
+13:13:12.7 Progress: 100 %
+13:13:12.8 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_5 S443 Diss 2nd\120321_ExpMethod.fmf in 16 ms
+13:13:12.9 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_5 S443 Diss 2nd\120321_ExpMethod.fmf in 15 ms
+13:13:19.5 Progress: 0 %
+13:13:19.6 Progress: 12 %
+13:13:19.6 Progress: 25 %
+13:13:19.6 Progress: 37 %
+13:13:19.6 Progress: 50 %
+13:13:19.6 Progress: 62 %
+13:13:19.6 Progress: 75 %
+13:13:19.6 Progress: 87 %
+13:13:19.6 Progress: 100 %
+13:13:19.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_5 S443 Diss 2nd\120321_ExpMethod.fmf in 15 ms
+13:13:19.9 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_5 S443 Diss 2nd\120321_ExpMethod.fmf in 15 ms
+13:13:22.3 
+13:13:22.3 In StExperiment.Init()
+13:13:22.3 
+13:13:22.3 Time = 15 ms
+13:13:22.3 
+13:16:28.3 MultiWellPlate: DLL_PROCESS_DETACH.
+13:16:30.7 DataSecurity: DLL_PROCESS_ATTACH - V1.0.0.4
+13:16:30.9 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+13:16:31.0 AcquisitionEngine: DLL_PROCESS_ATTACH - V6.0.0.19
+13:16:31.1 ForteBio Data Acquisition 6.3.0.114 (debug build)
+13:16:31.1   -ForteBio command line option set.
+13:16:31.2 Instrument started...13:16:31.2 
+13:16:36.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+13:16:36.3 ### RaiseErrorEvent(1, -1, 4, Failed to open motion controller.) ###
+13:16:36.3     Assay=0, Step=0, CurrentCycle=0, m_eCurrentState=25
+13:16:36.3 SendErrorMsg(25, 2010004, 0, Failed to open motion controller.)
+13:16:36.3 Old State:24- New State:ENGN_State_Error13:16:36.3 
+13:41:31.8 Progress: 0 %
+13:41:31.9 Progress: 12 %
+13:41:32.0 Progress: 25 %
+13:41:32.0 Progress: 37 %
+13:41:32.1 Progress: 50 %
+13:41:32.2 Progress: 62 %
+13:41:32.3 Progress: 75 %
+13:41:32.3 Progress: 87 %
+13:41:32.4 Progress: 100 %
+13:41:32.5 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N Q192R 23SLN Repeat\120524_ExpMethod.fmf in 16 ms
+13:41:32.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N Q192R 23SLN Repeat\120524_ExpMethod.fmf in 15 ms
+13:41:35.7 
+13:41:35.7 In StExperiment.Init()
+13:41:35.7 
+13:41:35.8 Time = 16 ms
+13:41:35.8 
+13:41:50.3 Progress: 0 %
+13:41:50.4 Progress: 12 %
+13:41:50.5 Progress: 25 %
+13:41:50.6 Progress: 37 %
+13:41:50.6 Progress: 50 %
+13:41:50.7 Progress: 62 %
+13:41:50.8 Progress: 75 %
+13:41:50.9 Progress: 87 %
+13:41:50.9 Progress: 100 %
+13:41:51.0 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 23SLN Repeat\120524_ExpMethod.fmf in 0 ms
+13:41:51.2 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 23SLN Repeat\120524_ExpMethod.fmf in 16 ms
+13:41:54.2 
+13:41:54.2 In StExperiment.Init()
+13:41:54.2 
+13:41:54.2 Time = 16 ms
+13:41:54.2 
+13:50:35.0 Progress: 0 %
+13:50:35.0 Progress: 12 %
+13:50:35.1 Progress: 25 %
+13:50:35.2 Progress: 37 %
+13:50:35.3 Progress: 50 %
+13:50:35.4 Progress: 62 %
+13:50:35.4 Progress: 75 %
+13:50:35.5 Progress: 87 %
+13:50:35.5 Progress: 100 %
+13:50:35.5 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_4 COT Diss\120321_ExpMethod.fmf in 16 ms
+13:50:35.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_4 COT Diss\120321_ExpMethod.fmf in 16 ms
+13:50:42.0 MultiWellPlate: DLL_PROCESS_DETACH.
+13:50:48.5 DataSecurity: DLL_PROCESS_ATTACH - V1.0.0.4
+13:50:48.6 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+13:50:48.6 AcquisitionEngine: DLL_PROCESS_ATTACH - V6.0.0.19
+13:50:48.6 ForteBio Data Acquisition 6.3.0.114 (debug build)
+13:50:48.9 AcquisitionEngine: DLL_PROCESS_DETACH.
+13:50:48.9 MultiWellPlate: DLL_PROCESS_DETACH.
+13:50:48.9 DataSecurity: DLL_PROCESS_DETACH.
+13:50:52.5 Warning: no message line prompt for ID 0x8038.
+13:50:52.5 Warning: no message line prompt for ID 0x8036.
+13:53:50.6 StopShaker
+13:53:50.7 AcquisitionEngine: DLL_PROCESS_DETACH.
+13:53:50.7 MultiWellPlate: DLL_PROCESS_DETACH.
+13:53:50.7 DataSecurity: DLL_PROCESS_DETACH.
+13:53:55.5 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+13:54:15.6 Progress: 0 %
+13:54:15.6 Progress: 12 %
+13:54:15.6 Progress: 25 %
+13:54:15.7 Progress: 37 %
+13:54:15.7 Progress: 50 %
+13:54:15.7 Progress: 62 %
+13:54:15.7 Progress: 75 %
+13:54:15.7 Progress: 87 %
+13:54:15.7 Progress: 100 %
+13:54:15.8 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_4 COT Diss\120321_ExpMethod.fmf in 16 ms
+13:54:15.9 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_4 COT Diss\120321_ExpMethod.fmf in 0 ms
+13:54:17.9 
+13:54:17.9 In StExperiment.Init()
+13:54:17.9 
+13:54:17.9 Time = 31 ms
+13:54:17.9 
+13:54:39.8 Progress: 0 %
+13:54:39.8 Progress: 12 %
+13:54:39.8 Progress: 25 %
+13:54:39.9 Progress: 37 %
+13:54:40.0 Progress: 50 %
+13:54:40.1 Progress: 62 %
+13:54:40.1 Progress: 75 %
+13:54:40.2 Progress: 87 %
+13:54:40.3 Progress: 100 %
+13:54:40.3 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_5 COT Diss 2nd\120321_ExpMethod.fmf in 15 ms
+13:54:40.4 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_5 COT Diss 2nd\120321_ExpMethod.fmf in 16 ms
+13:54:43.7 Progress: 0 %
+13:54:43.8 Progress: 12 %
+13:54:43.8 Progress: 25 %
+13:54:43.8 Progress: 37 %
+13:54:43.8 Progress: 50 %
+13:54:43.8 Progress: 62 %
+13:54:43.8 Progress: 75 %
+13:54:43.8 Progress: 87 %
+13:54:43.8 Progress: 100 %
+13:54:43.9 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_5 COT Diss 2nd\120321_ExpMethod.fmf in 15 ms
+13:54:44.1 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 21st 2012\Experiment_5 COT Diss 2nd\120321_ExpMethod.fmf in 0 ms
+13:54:45.7 
+13:54:45.7 In StExperiment.Init()
+13:54:45.7 
+13:54:45.7 Time = 0 ms
+13:54:45.7 
+13:55:06.8 MultiWellPlate: DLL_PROCESS_DETACH.
+14:02:44.1 DataSecurity: DLL_PROCESS_ATTACH - V1.0.0.4
+14:02:44.2 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+14:02:44.2 AcquisitionEngine: DLL_PROCESS_ATTACH - V6.0.0.19
+14:02:44.2 ForteBio Data Acquisition 6.3.0.114 (debug build)
+14:02:44.2   -ForteBio command line option set.
+14:02:44.3 Instrument started...14:02:44.3 
+14:02:49.3 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+14:02:49.3 ### RaiseErrorEvent(1, -1, 4, Failed to open motion controller.) ###
+14:02:49.3     Assay=0, Step=0, CurrentCycle=0, m_eCurrentState=25
+14:02:49.3 SendErrorMsg(25, 2010004, 0, Failed to open motion controller.)
+14:02:49.3 Old State:24- New State:ENGN_State_Error14:02:49.3 
+14:02:53.9 Warning: no message line prompt for ID 0x8022.
+14:02:53.9 Warning: no message line prompt for ID 0x8032.
+14:02:54.1 Warning: no message line prompt for ID 0x8022.
+14:02:54.2 Warning: no message line prompt for ID 0x8032.
+14:02:54.9 Warning: no message line prompt for ID 0x8032.
+14:02:55.1 Warning: no message line prompt for ID 0x8022.
+14:02:55.4 Warning: no message line prompt for ID 0x8032.
+14:02:55.7 Warning: no message line prompt for ID 0x8032.
+14:02:55.7 Warning: no message line prompt for ID 0x8022.
+14:02:56.2 Warning: no message line prompt for ID 0x8022.
+14:02:59.3 Warning: no message line prompt for ID 0x8022.
+14:02:59.4 Warning: no message line prompt for ID 0x8032.
+14:02:59.7 Warning: no message line prompt for ID 0x8022.
+14:03:33.0 Warning: no message line prompt for ID 0x8022.
+14:03:34.3 Warning: no message line prompt for ID 0x8022.
+14:03:35.8 Warning: no message line prompt for ID 0x8022.
+14:03:36.4 Warning: no message line prompt for ID 0x8032.
+14:03:36.6 Warning: no message line prompt for ID 0x8032.
+14:03:36.7 Warning: no message line prompt for ID 0x8022.
+14:15:55.5 StopShaker
+14:15:55.6 AcquisitionEngine: DLL_PROCESS_DETACH.
+14:15:55.6 MultiWellPlate: DLL_PROCESS_DETACH.
+14:15:55.6 DataSecurity: DLL_PROCESS_DETACH.
+14:34:29.4 DataSecurity: DLL_PROCESS_ATTACH - V1.0.0.4
+14:34:29.5 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+14:34:29.5 AcquisitionEngine: DLL_PROCESS_ATTACH - V6.0.0.19
+14:34:29.5 ForteBio Data Acquisition 6.3.0.114 (debug build)
+14:34:29.5   -ForteBio command line option set.
+14:34:29.9 Instrument started...14:34:29.9 
+14:34:34.9 GMC Error(-5): Device driver could not be opened, or a read or write error occured.
+14:34:34.9 ### RaiseErrorEvent(1, -1, 4, Failed to open motion controller.) ###
+14:34:34.9     Assay=0, Step=0, CurrentCycle=0, m_eCurrentState=25
+14:34:34.9 SendErrorMsg(25, 2010004, 0, Failed to open motion controller.)
+14:34:34.9 Old State:24- New State:ENGN_State_Error14:34:34.9 
+14:44:16.5 DataSecurity: DLL_PROCESS_ATTACH - V1.0.0.4
+14:44:16.5 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+14:44:16.5 AcquisitionEngine: DLL_PROCESS_ATTACH - V6.0.0.19
+14:44:16.6 ForteBio Data Acquisition 6.3.0.114 (debug build)
+14:44:16.9 AcquisitionEngine: DLL_PROCESS_DETACH.
+14:44:16.9 MultiWellPlate: DLL_PROCESS_DETACH.
+14:44:16.9 DataSecurity: DLL_PROCESS_DETACH.
+14:44:27.4 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+14:44:48.7 Progress: 0 %
+14:44:48.7 Progress: 12 %
+14:44:48.7 Progress: 25 %
+14:44:48.8 Progress: 37 %
+14:44:48.8 Progress: 50 %
+14:44:48.8 Progress: 62 %
+14:44:48.8 Progress: 75 %
+14:44:48.8 Progress: 87 %
+14:44:48.8 Progress: 100 %
+14:44:48.9 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 20th 2012\Experiment_3 S 60\120320_ExpMethod.fmf in 16 ms
+14:44:49.1 Read C:\Documents and Settings\octet\Desktop\Octet Data\Hakem\March 20th 2012\Experiment_3 S 60\120320_ExpMethod.fmf in 16 ms
+14:44:50.4 
+14:44:50.4 In StExperiment.Init()
+14:44:50.4 
+14:44:50.4 Time = 16 ms
+14:44:50.4 
+14:47:32.4 DataSecurity: DLL_PROCESS_ATTACH - V1.0.0.4
+14:47:32.5 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+14:47:32.5 AcquisitionEngine: DLL_PROCESS_ATTACH - V6.0.0.19
+14:47:32.6 ForteBio Data Acquisition 6.3.0.114 (debug build)
+14:47:32.8 AcquisitionEngine: DLL_PROCESS_DETACH.
+14:47:32.8 MultiWellPlate: DLL_PROCESS_DETACH.
+14:47:32.8 DataSecurity: DLL_PROCESS_DETACH.
+15:15:54.7 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+15:16:20.9 Progress: 0 %
+15:16:20.9 Progress: 12 %
+15:16:20.9 Progress: 25 %
+15:16:20.9 Progress: 37 %
+15:16:20.9 Progress: 50 %
+15:16:20.9 Progress: 62 %
+15:16:20.9 Progress: 75 %
+15:16:20.9 Progress: 87 %
+15:16:20.9 Progress: 100 %
+15:16:21.0 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N Q192R 23SLN Repeat\120524_ExpMethod.fmf in 16 ms
+15:16:21.2 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N Q192R 23SLN Repeat\120524_ExpMethod.fmf in 0 ms
+15:16:25.5 
+15:16:25.5 In StExperiment.Init()
+15:16:25.5 
+15:16:25.6 Time = 16 ms
+15:16:25.6 
+15:16:57.3 Progress: 0 %
+15:16:57.3 Progress: 12 %
+15:16:57.4 Progress: 25 %
+15:16:57.4 Progress: 37 %
+15:16:57.4 Progress: 50 %
+15:16:57.4 Progress: 62 %
+15:16:57.4 Progress: 75 %
+15:16:57.5 Progress: 87 %
+15:16:57.6 Progress: 100 %
+15:16:57.6 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N Q192R 26SLN Repeat Long Load\120524_ExpMethod.fmf in 0 ms
+15:16:57.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N Q192R 26SLN Repeat Long Load\120524_ExpMethod.fmf in 16 ms
+15:17:13.9 MultiWellPlate: DLL_PROCESS_DETACH.
+15:18:51.9 Progress: 0 %
+15:18:51.9 Progress: 12 %
+15:18:51.9 Progress: 25 %
+15:18:51.9 Progress: 37 %
+15:18:52.0 Progress: 50 %
+15:18:52.0 Progress: 62 %
+15:18:52.0 Progress: 75 %
+15:18:52.0 Progress: 87 %
+15:18:52.0 Progress: 100 %
+15:18:52.0 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N Q192R 23SLN Repeat\120524_ExpMethod.fmf in 0 ms
+15:18:52.2 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N Q192R 23SLN Repeat\120524_ExpMethod.fmf in 0 ms
+15:18:57.1 
+15:18:57.1 In StExperiment.Init()
+15:18:57.1 
+15:18:57.1 Time = 15 ms
+15:18:57.1 
+15:19:22.4 Progress: 0 %
+15:19:22.4 Progress: 12 %
+15:19:22.4 Progress: 25 %
+15:19:22.4 Progress: 37 %
+15:19:22.5 Progress: 50 %
+15:19:22.5 Progress: 62 %
+15:19:22.5 Progress: 75 %
+15:19:22.5 Progress: 87 %
+15:19:22.5 Progress: 100 %
+15:19:22.5 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N Q192R 26SLN Repeat Long Load\120524_ExpMethod.fmf in 15 ms
+15:19:22.6 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N Q192R 26SLN Repeat Long Load\120524_ExpMethod.fmf in 0 ms
+15:19:27.9 
+15:19:27.9 In StExperiment.Init()
+15:19:27.9 
+15:19:27.9 Time = 15 ms
+15:19:27.9 
+15:19:43.0 MultiWellPlate: DLL_PROCESS_DETACH.
+16:01:25.7 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+16:01:58.1 Progress: 0 %
+16:01:58.2 Progress: 12 %
+16:01:58.2 Progress: 25 %
+16:01:58.2 Progress: 37 %
+16:01:58.3 Progress: 50 %
+16:01:58.3 Progress: 62 %
+16:01:58.4 Progress: 75 %
+16:01:58.5 Progress: 87 %
+16:01:58.5 Progress: 100 %
+16:01:58.6 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 23SLN\120524_ExpMethod.fmf in 0 ms
+16:01:58.8 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 23SLN\120524_ExpMethod.fmf in 0 ms
+16:02:00.4 
+16:02:00.4 In StExperiment.Init()
+16:02:00.4 
+16:02:00.4 Time = 31 ms
+16:02:00.4 
+16:02:14.8 Progress: 0 %
+16:02:14.9 Progress: 12 %
+16:02:14.9 Progress: 25 %
+16:02:15.0 Progress: 37 %
+16:02:15.1 Progress: 50 %
+16:02:15.2 Progress: 62 %
+16:02:15.2 Progress: 75 %
+16:02:15.2 Progress: 87 %
+16:02:15.2 Progress: 100 %
+16:02:15.3 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 23SLN short load\120524_ExpMethod.fmf in 0 ms
+16:02:15.4 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 23SLN short load\120524_ExpMethod.fmf in 15 ms
+16:02:25.1 Progress: 0 %
+16:02:25.1 Progress: 12 %
+16:02:25.1 Progress: 25 %
+16:02:25.1 Progress: 37 %
+16:02:25.2 Progress: 50 %
+16:02:25.2 Progress: 62 %
+16:02:25.2 Progress: 75 %
+16:02:25.2 Progress: 87 %
+16:02:25.2 Progress: 100 %
+16:02:25.2 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 23SLN short load\120524_ExpMethod.fmf in 0 ms
+16:02:25.4 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 23SLN short load\120524_ExpMethod.fmf in 0 ms
+16:02:27.1 
+16:02:27.1 In StExperiment.Init()
+16:02:27.1 
+16:02:27.1 Time = 15 ms
+16:02:27.1 
+16:02:44.0 Progress: 0 %
+16:02:44.0 Progress: 12 %
+16:02:44.0 Progress: 25 %
+16:02:44.1 Progress: 37 %
+16:02:44.2 Progress: 50 %
+16:02:44.3 Progress: 62 %
+16:02:44.3 Progress: 75 %
+16:02:44.4 Progress: 87 %
+16:02:44.4 Progress: 100 %
+16:02:44.5 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 26SLN\120524_ExpMethod.fmf in 0 ms
+16:02:44.6 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 26SLN\120524_ExpMethod.fmf in 15 ms
+16:02:49.6 Progress: 0 %
+16:02:49.7 Progress: 12 %
+16:02:49.7 Progress: 25 %
+16:02:49.7 Progress: 37 %
+16:02:49.7 Progress: 50 %
+16:02:49.7 Progress: 62 %
+16:02:49.7 Progress: 75 %
+16:02:49.7 Progress: 87 %
+16:02:49.7 Progress: 100 %
+16:02:49.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 26SLN\120524_ExpMethod.fmf in 0 ms
+16:02:50.0 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 26SLN\120524_ExpMethod.fmf in 16 ms
+16:02:52.8 
+16:02:52.8 In StExperiment.Init()
+16:02:52.8 
+16:02:52.8 Time = 15 ms
+16:02:52.8 
+16:03:09.7 Progress: 0 %
+16:03:09.8 Progress: 12 %
+16:03:09.9 Progress: 25 %
+16:03:10.0 Progress: 37 %
+16:03:10.1 Progress: 50 %
+16:03:10.2 Progress: 62 %
+16:03:10.2 Progress: 75 %
+16:03:10.3 Progress: 87 %
+16:03:10.4 Progress: 100 %
+16:03:10.5 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 26SLN long load\120524_ExpMethod.fmf in 0 ms
+16:03:10.6 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 26SLN long load\120524_ExpMethod.fmf in 0 ms
+16:03:13.8 Progress: 0 %
+16:03:13.9 Progress: 12 %
+16:03:13.9 Progress: 25 %
+16:03:13.9 Progress: 37 %
+16:03:13.9 Progress: 50 %
+16:03:13.9 Progress: 62 %
+16:03:13.9 Progress: 75 %
+16:03:13.9 Progress: 87 %
+16:03:13.9 Progress: 100 %
+16:03:14.0 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 26SLN long load\120524_ExpMethod.fmf in 0 ms
+16:03:14.2 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 26SLN long load\120524_ExpMethod.fmf in 0 ms
+16:03:15.8 
+16:03:15.8 In StExperiment.Init()
+16:03:15.8 
+16:03:15.9 Time = 16 ms
+16:03:15.9 
+16:03:38.4 MultiWellPlate: DLL_PROCESS_DETACH.
+16:32:48.0 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+16:33:07.6 Progress: 0 %
+16:33:07.6 Progress: 12 %
+16:33:07.6 Progress: 25 %
+16:33:07.7 Progress: 37 %
+16:33:07.7 Progress: 50 %
+16:33:07.7 Progress: 62 %
+16:33:07.7 Progress: 75 %
+16:33:07.7 Progress: 87 %
+16:33:07.7 Progress: 100 %
+16:33:07.8 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 23SLN short load\120524_ExpMethod.fmf in 0 ms
+16:33:08.0 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 23SLN short load\120524_ExpMethod.fmf in 16 ms
+16:33:09.2 Progress: 0 %
+16:33:09.2 Progress: 12 %
+16:33:09.2 Progress: 25 %
+16:33:09.3 Progress: 37 %
+16:33:09.3 Progress: 50 %
+16:33:09.3 Progress: 62 %
+16:33:09.3 Progress: 75 %
+16:33:09.3 Progress: 87 %
+16:33:09.3 Progress: 100 %
+16:33:09.3 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 23SLN short load\120524_ExpMethod.fmf in 16 ms
+16:33:09.5 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 23SLN short load\120524_ExpMethod.fmf in 0 ms
+16:33:10.5 
+16:33:10.5 In StExperiment.Init()
+16:33:10.5 
+16:33:10.5 Time = 16 ms
+16:33:10.5 
+17:11:59.1 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+17:12:03.4 MultiWellPlate: DLL_PROCESS_DETACH.
+17:15:36.5 MultiWellPlate: DLL_PROCESS_DETACH.
+17:15:50.5 StopShaker
+17:15:50.7 AcquisitionEngine: DLL_PROCESS_DETACH.
+17:15:50.7 MultiWellPlate: DLL_PROCESS_DETACH.
+17:15:50.7 DataSecurity: DLL_PROCESS_DETACH.
+17:26:21.4 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+17:26:25.4 Progress: 0 %
+17:26:25.4 Progress: 12 %
+17:26:25.4 Progress: 25 %
+17:26:25.4 Progress: 37 %
+17:26:25.4 Progress: 50 %
+17:26:25.4 Progress: 62 %
+17:26:25.4 Progress: 75 %
+17:26:25.4 Progress: 87 %
+17:26:25.4 Progress: 100 %
+17:26:25.5 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 23SLN\120524_ExpMethod.fmf in 15 ms
+17:26:25.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 G139R 23SLN\120524_ExpMethod.fmf in 0 ms
+17:26:53.4 Progress: 0 %
+17:26:53.4 Progress: 12 %
+17:26:53.4 Progress: 25 %
+17:26:53.4 Progress: 37 %
+17:26:53.4 Progress: 50 %
+17:26:53.4 Progress: 62 %
+17:26:53.4 Progress: 75 %
+17:26:53.4 Progress: 87 %
+17:26:53.4 Progress: 100 %
+17:26:53.4 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 23SLN\120524_ExpMethod.fmf in 15 ms
+17:26:53.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 23SLN\120524_ExpMethod.fmf in 16 ms
+17:27:02.0 Progress: 0 %
+17:27:02.1 Progress: 12 %
+17:27:02.1 Progress: 25 %
+17:27:02.1 Progress: 37 %
+17:27:02.1 Progress: 50 %
+17:27:02.1 Progress: 62 %
+17:27:02.1 Progress: 75 %
+17:27:02.1 Progress: 87 %
+17:27:02.1 Progress: 100 %
+17:27:02.2 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 23SLN repeat\120524_ExpMethod.fmf in 15 ms
+17:27:02.4 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 23SLN repeat\120524_ExpMethod.fmf in 16 ms
+17:27:10.9 Progress: 0 %
+17:27:10.9 Progress: 12 %
+17:27:11.0 Progress: 25 %
+17:27:11.0 Progress: 37 %
+17:27:11.0 Progress: 50 %
+17:27:11.0 Progress: 62 %
+17:27:11.0 Progress: 75 %
+17:27:11.0 Progress: 87 %
+17:27:11.0 Progress: 100 %
+17:27:11.0 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 26SLN\120524_ExpMethod.fmf in 0 ms
+17:27:11.2 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 26SLN\120524_ExpMethod.fmf in 15 ms
+17:27:21.1 Progress: 0 %
+17:27:21.2 Progress: 12 %
+17:27:21.2 Progress: 25 %
+17:27:21.2 Progress: 37 %
+17:27:21.2 Progress: 50 %
+17:27:21.2 Progress: 62 %
+17:27:21.2 Progress: 75 %
+17:27:21.2 Progress: 87 %
+17:27:21.3 Progress: 100 %
+17:27:21.3 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 26SLN repeat\120524_ExpMethod.fmf in 16 ms
+17:27:21.5 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 26SLN repeat\120524_ExpMethod.fmf in 0 ms
+17:27:35.4 Progress: 0 %
+17:27:35.5 Progress: 12 %
+17:27:35.5 Progress: 25 %
+17:27:35.5 Progress: 37 %
+17:27:35.5 Progress: 50 %
+17:27:35.5 Progress: 62 %
+17:27:35.5 Progress: 75 %
+17:27:35.5 Progress: 87 %
+17:27:35.5 Progress: 100 %
+17:27:35.6 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 23SLN\120523_ExpMethod.fmf in 0 ms
+17:27:35.8 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 23SLN\120523_ExpMethod.fmf in 16 ms
+17:28:28.6 Progress: 0 %
+17:28:28.6 Progress: 12 %
+17:28:28.6 Progress: 25 %
+17:28:28.6 Progress: 37 %
+17:28:28.6 Progress: 50 %
+17:28:28.6 Progress: 62 %
+17:28:28.6 Progress: 75 %
+17:28:28.7 Progress: 87 %
+17:28:28.7 Progress: 100 %
+17:28:28.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 26SLN\120523_ExpMethod.fmf in 16 ms
+17:28:28.9 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 26SLN\120523_ExpMethod.fmf in 16 ms
+17:28:41.0 Progress: 0 %
+17:28:41.1 Progress: 12 %
+17:28:41.1 Progress: 25 %
+17:28:41.1 Progress: 37 %
+17:28:41.1 Progress: 50 %
+17:28:41.1 Progress: 62 %
+17:28:41.1 Progress: 75 %
+17:28:41.1 Progress: 87 %
+17:28:41.1 Progress: 100 %
+17:28:41.2 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 26SLN Repeat\120524_ExpMethod.fmf in 15 ms
+17:28:41.4 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 26SLN Repeat\120524_ExpMethod.fmf in 15 ms
+17:30:55.4 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+17:31:12.2 Progress: 0 %
+17:31:12.2 Progress: 12 %
+17:31:12.2 Progress: 25 %
+17:31:12.3 Progress: 37 %
+17:31:12.3 Progress: 50 %
+17:31:12.3 Progress: 62 %
+17:31:12.3 Progress: 75 %
+17:31:12.3 Progress: 87 %
+17:31:12.3 Progress: 100 %
+17:31:12.4 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 23SLN Repeat New\120524_ExpMethod.fmf in 15 ms
+17:31:12.6 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 23SLN Repeat New\120524_ExpMethod.fmf in 15 ms
+17:31:19.8 Progress: 0 %
+17:31:19.9 Progress: 12 %
+17:31:19.9 Progress: 25 %
+17:31:19.9 Progress: 37 %
+17:31:19.9 Progress: 50 %
+17:31:19.9 Progress: 62 %
+17:31:19.9 Progress: 75 %
+17:31:19.9 Progress: 87 %
+17:31:19.9 Progress: 100 %
+17:31:20.0 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 23SLN\120524_ExpMethod.fmf in 16 ms
+17:31:20.2 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 23SLN\120524_ExpMethod.fmf in 16 ms
+17:31:22.7 
+17:31:22.7 In StExperiment.Init()
+17:31:22.7 
+17:31:22.8 Time = 16 ms
+17:31:22.8 
+17:31:35.4 Progress: 0 %
+17:31:35.4 Progress: 12 %
+17:31:35.4 Progress: 25 %
+17:31:35.4 Progress: 37 %
+17:31:35.4 Progress: 50 %
+17:31:35.5 Progress: 62 %
+17:31:35.5 Progress: 75 %
+17:31:35.5 Progress: 87 %
+17:31:35.5 Progress: 100 %
+17:31:35.5 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 23SLN repeat\120524_ExpMethod.fmf in 16 ms
+17:31:35.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 23SLN repeat\120524_ExpMethod.fmf in 0 ms
+17:31:38.1 
+17:31:38.1 In StExperiment.Init()
+17:31:38.1 
+17:31:38.1 Time = 0 ms
+17:31:38.1 
+17:31:51.9 Progress: 0 %
+17:31:51.9 Progress: 12 %
+17:31:51.9 Progress: 25 %
+17:31:51.9 Progress: 37 %
+17:31:51.9 Progress: 50 %
+17:31:52.0 Progress: 62 %
+17:31:52.0 Progress: 75 %
+17:31:52.0 Progress: 87 %
+17:31:52.0 Progress: 100 %
+17:31:52.0 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 26SLN\120524_ExpMethod.fmf in 16 ms
+17:31:52.2 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 26SLN\120524_ExpMethod.fmf in 16 ms
+17:31:53.9 
+17:31:53.9 In StExperiment.Init()
+17:31:53.9 
+17:31:53.9 Time = 15 ms
+17:31:53.9 
+17:31:57.6 Progress: 0 %
+17:31:57.6 Progress: 12 %
+17:31:57.6 Progress: 25 %
+17:31:57.6 Progress: 37 %
+17:31:57.6 Progress: 50 %
+17:31:57.7 Progress: 62 %
+17:31:57.7 Progress: 75 %
+17:31:57.7 Progress: 87 %
+17:31:57.7 Progress: 100 %
+17:31:57.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 26SLN\120524_ExpMethod.fmf in 16 ms
+17:31:57.9 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 26SLN\120524_ExpMethod.fmf in 15 ms
+17:32:00.2 
+17:32:00.2 In StExperiment.Init()
+17:32:00.2 
+17:32:00.2 Time = 16 ms
+17:32:00.2 
+17:32:08.8 Progress: 0 %
+17:32:08.8 Progress: 12 %
+17:32:08.8 Progress: 25 %
+17:32:08.8 Progress: 37 %
+17:32:08.9 Progress: 50 %
+17:32:08.9 Progress: 62 %
+17:32:08.9 Progress: 75 %
+17:32:08.9 Progress: 87 %
+17:32:08.9 Progress: 100 %
+17:32:08.9 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 26SLN repeat\120524_ExpMethod.fmf in 16 ms
+17:32:09.1 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 N182K 26SLN repeat\120524_ExpMethod.fmf in 16 ms
+17:32:11.3 
+17:32:11.3 In StExperiment.Init()
+17:32:11.3 
+17:32:11.3 Time = 15 ms
+17:32:11.3 
+17:32:26.4 Progress: 0 %
+17:32:26.4 Progress: 12 %
+17:32:26.4 Progress: 25 %
+17:32:26.5 Progress: 37 %
+17:32:26.5 Progress: 50 %
+17:32:26.5 Progress: 62 %
+17:32:26.5 Progress: 75 %
+17:32:26.5 Progress: 87 %
+17:32:26.5 Progress: 100 %
+17:32:26.5 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 23SLN\120523_ExpMethod.fmf in 15 ms
+17:32:26.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 23SLN\120523_ExpMethod.fmf in 15 ms
+17:32:30.8 
+17:32:30.8 In StExperiment.Init()
+17:32:30.8 
+17:32:30.8 Time = 0 ms
+17:32:30.8 
+17:32:40.6 Progress: 0 %
+17:32:40.6 Progress: 12 %
+17:32:40.6 Progress: 25 %
+17:32:40.6 Progress: 37 %
+17:32:40.6 Progress: 50 %
+17:32:40.6 Progress: 62 %
+17:32:40.7 Progress: 75 %
+17:32:40.7 Progress: 87 %
+17:32:40.7 Progress: 100 %
+17:32:40.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 23SLN Repeat New\120524_ExpMethod.fmf in 15 ms
+17:32:40.9 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 23SLN Repeat New\120524_ExpMethod.fmf in 16 ms
+17:32:46.7 
+17:32:46.7 In StExperiment.Init()
+17:32:46.7 
+17:32:46.8 Time = 16 ms
+17:32:46.8 
+17:33:07.3 Progress: 0 %
+17:33:07.4 Progress: 12 %
+17:33:07.4 Progress: 25 %
+17:33:07.4 Progress: 37 %
+17:33:07.4 Progress: 50 %
+17:33:07.4 Progress: 62 %
+17:33:07.4 Progress: 75 %
+17:33:07.4 Progress: 87 %
+17:33:07.4 Progress: 100 %
+17:33:07.4 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 26SLN\120523_ExpMethod.fmf in 16 ms
+17:33:07.6 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 26SLN\120523_ExpMethod.fmf in 16 ms
+17:33:11.5 
+17:33:11.5 In StExperiment.Init()
+17:33:11.5 
+17:33:11.5 Time = 0 ms
+17:33:11.5 
+17:33:20.0 Progress: 0 %
+17:33:20.1 Progress: 12 %
+17:33:20.1 Progress: 25 %
+17:33:20.1 Progress: 37 %
+17:33:20.1 Progress: 50 %
+17:33:20.1 Progress: 62 %
+17:33:20.1 Progress: 75 %
+17:33:20.1 Progress: 87 %
+17:33:20.1 Progress: 100 %
+17:33:20.2 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 26SLN Repeat\120524_ExpMethod.fmf in 15 ms
+17:33:20.4 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 26SLN Repeat\120524_ExpMethod.fmf in 15 ms
+17:33:24.0 
+17:33:24.0 In StExperiment.Init()
+17:33:24.0 
+17:33:24.0 Time = 16 ms
+17:33:24.0 
+17:33:43.9 Progress: 0 %
+17:33:43.9 Progress: 12 %
+17:33:43.9 Progress: 25 %
+17:33:43.9 Progress: 37 %
+17:33:43.9 Progress: 50 %
+17:33:44.0 Progress: 62 %
+17:33:44.0 Progress: 75 %
+17:33:44.0 Progress: 87 %
+17:33:44.0 Progress: 100 %
+17:33:44.0 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 23SLN\120523_ExpMethod.fmf in 16 ms
+17:33:44.2 Read C:\Documents and Settings\octet\Desktop\Octet Data\Alex\H5 S223N 23SLN\120523_ExpMethod.fmf in 16 ms
+17:33:47.9 
+17:33:47.9 In StExperiment.Init()
+17:33:47.9 
+17:33:47.9 Time = 16 ms
+17:33:47.9 
+17:34:03.0 MultiWellPlate: DLL_PROCESS_DETACH.
+10:06:38.5 DataSecurity: DLL_PROCESS_ATTACH - V1.0.0.4
+10:06:38.6 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+10:06:38.6 AcquisitionEngine: DLL_PROCESS_ATTACH - V6.0.0.19
+10:06:38.6 ForteBio Data Acquisition 6.3.0.114 (debug build)
+10:06:38.6   -ForteBio command line option set.
+10:06:38.9 Instrument started...10:06:38.9 
+10:06:39.4 OLDIOBOARD: IsOldOctet() || IsOctetRed()
+10:06:39.6 GetSamplePos1_1 = (-2.3177,-103.632,-12.8333)
+10:06:39.6 GetSamplePos1_9 = (-2.3177,-33.655,-30.1942)
+10:06:39.6 m_dPickRowSpacingMM = 9
+10:06:39.6 m_ySample1RowSpacingMM = 8.74715
+10:06:39.6 m_zSample1RowSpacingMM = -2.17011
+10:06:39.6 m_ySample2RowSpacingMM = 9
+10:06:39.6 m_zSample2RowSpacingMM = 0
+10:06:39.6 Opening instrument: OctetRed
+10:06:39.6    Version: 3011
+10:06:39.6 EJECTOR: not present (simulation mode)
+10:06:39.6 AUTODOOR: opened in simulation mode
+10:06:39.8 Opened heater Heater on port \\.\COM3, device ID = 96.
+10:06:39.9 Heater initialization succeeded on port 3
+10:06:39.9 Old State:24- New State:ENGN_State_Launched10:06:39.9 
+10:06:40.1 ### RaiseErrorEvent(1, -1, 11, Initialization aborted by the door being opened.
+10:06:40.1 
+10:06:40.1 Once the door has been closed please reset the instrument.) ###
+10:06:40.1     Assay=0, Step=0, CurrentCycle=0, m_eCurrentState=25
+10:06:40.1 SendErrorMsg(25, 4010011, 0, Initialization aborted by the door being opened.
+10:06:40.1 
+10:06:40.1 Once the door has been closed please reset the instrument.)
+10:06:40.2 Old State:25-ENGN_State_Launched New State:ENGN_State_Error10:06:40.2 
+10:06:40.2 Integration Time: 
+10:07:48.8 
+10:07:48.8 
+10:07:48.8 ** Initializing Instrument **
+10:07:48.9 Old State:0-ENGN_State_Error New State:ENGN_State_WaitInitialize10:07:48.9 
+10:07:49.6 OLDIOBOARD: IsOldOctet() || IsOctetRed()
+10:07:49.7 GetSamplePos1_1 = (-2.3177,-103.632,-12.8333)
+10:07:49.7 GetSamplePos1_9 = (-2.3177,-33.655,-30.1942)
+10:07:49.7 m_dPickRowSpacingMM = 9
+10:07:49.7 m_ySample1RowSpacingMM = 8.74715
+10:07:49.7 m_zSample1RowSpacingMM = -2.17011
+10:07:49.7 m_ySample2RowSpacingMM = 9
+10:07:49.7 m_zSample2RowSpacingMM = 0
+10:07:49.7 Opening instrument: OctetRed
+10:07:49.7    Version: 3011
+10:07:49.7 EJECTOR: not present (simulation mode)
+10:07:49.7 AUTODOOR: opened in simulation mode
+10:07:50.0 Opened heater Heater on port \\.\COM3, device ID = 96.
+10:07:50.1 Heater initialization succeeded on port 3
+10:07:50.2 Looking for 8 devices with timeout of 60000 ms
+10:08:50.2 Only found 7 devices - TIMEOUT
+10:08:50.3 1: < not found >
+10:08:50.3 2: USB4F06739
+10:08:50.3 3: USB4F06447
+10:08:50.3 4: USB4F06451
+10:08:50.3 5: USB4F06450
+10:08:50.3 6: USB4F06452
+10:08:50.3 7: USB4F06759
+10:08:50.3 8: USB4F06014
+10:08:50.3 1 channels missing
+10:08:50.3 *** Spectrometer 1 ***
+10:08:50.3 Wait 10 seconds
+10:09:00.4 Looking for 8 devices with timeout of 60000 ms
+10:09:03.4 Found 8 devices in 3000 ms
+10:09:03.4    Turned ON OK
+10:09:03.5 1: USB4F06734
+10:09:03.5 2: USB4F06739
+10:09:03.5 3: USB4F06447
+10:09:03.5 4: USB4F06451
+10:09:03.5 5: USB4F06450
+10:09:03.5 6: USB4F06452
+10:09:03.5 7: USB4F06759
+10:09:03.5 8: USB4F06014
+10:09:03.5 0 channels missing
+10:09:04.0 EJECT: To Chute, position=-2
+10:09:04.3 Old State:1-ENGN_State_WaitInitialize New State:ENGN_State_Initializing10:09:04.3 
+10:09:16.7 Warning: no message line prompt for ID 0x8022.
+10:09:16.9 Warning: no message line prompt for ID 0x8032.
+10:09:26.5 Old State:2-ENGN_State_Initializing New State:ENGN_State_InitializeComplete10:09:26.5 
+10:09:26.5 Integration Time:  1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+10:09:26.6 Old State:3-ENGN_State_InitializeComplete New State:ENGN_State_SystemReady10:09:26.6 
+10:56:34.0 bShakeWhileWaiting=1, nShakerRPM=1000
+10:56:34.2 Old State:4-ENGN_State_SystemReady New State:ENGN_State_ControllerBusy10:56:34.2 
+10:56:35.1 StartShaker(1000)
+10:56:35.2 Old State:29-ENGN_State_ControllerBusy New State:ENGN_State_ControllerDone10:56:35.2 
+10:56:35.3 Old State:30-ENGN_State_ControllerDone New State:ENGN_State_SystemReady10:56:35.3 
+10:56:51.4 Starting new assay10:56:51.4 
+10:56:51.7 Plate temperature = 29 C
+10:56:51.7 Old State:4-ENGN_State_SystemReady New State:ENGN_StateRunning_StartNewStep10:56:51.7 
+10:56:51.9 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitPickingSensors10:56:51.9 
+10:56:52.0 Old State:7-ENGN_StateRunning_WaitPickingSensors New State:ENGN_StateRunning_PickingSensors10:56:52.0 
+10:57:00.6 Old State:8-ENGN_StateRunning_PickingSensors New State:ENGN_StateRunning_CheckingSensors10:57:00.6 
+10:57:00.8 
+10:57:00.8 Detect Sensors
+10:57:00.8 ==============
+10:57:00.8 1	YES		8.4	4926.3
+10:57:00.8 2	YES		8.2	5742.8
+10:57:00.8 3	YES		8.9	6399.2
+10:57:00.8 4	YES		8.4	4576.4
+10:57:00.8 5	YES		8.4	6192.8
+10:57:00.8 6	YES		8.1	4747.9
+10:57:00.8 7	YES		7.9	6975.4
+10:57:00.8 8	YES		8.2	6073.2
+10:57:00.8 
+10:57:00.9 CH1: Correction Factor = 2.72098
+10:57:00.9 CH2: Correction Factor = 2.25642
+10:57:00.9 CH3: Correction Factor = 2.12961
+10:57:00.9 CH4: Correction Factor = 2.94139
+10:57:00.9 CH5: Correction Factor = 2.28268
+10:57:00.9 CH6: Correction Factor = 2.83107
+10:57:00.9 CH7: Correction Factor = 1.88453
+10:57:00.9 CH8: Correction Factor = 2.26815
+10:57:01.1 CH1: Correction Factor = 1.07433
+10:57:01.1 CH2: Correction Factor = 1.07019
+10:57:01.1 CH3: Correction Factor = 1.06117
+10:57:01.1 CH4: Correction Factor = 1.07405
+10:57:01.1 CH5: Correction Factor = 1.06733
+10:57:01.1 CH6: Correction Factor = 1.06755
+10:57:01.1 CH7: Correction Factor = 1.06121
+10:57:01.1 CH8: Correction Factor = 1.07344
+10:57:01.3 CH1: Correction Factor = 1.00998
+10:57:01.3 CH2: Correction Factor = 1.00801
+10:57:01.3 CH3: Correction Factor = 1.00763
+10:57:01.3 CH4: Correction Factor = 1.01137
+10:57:01.3 CH5: Correction Factor = 1.00954
+10:57:01.3 CH6: Correction Factor = 1.01116
+10:57:01.3 CH7: Correction Factor = 1.00582
+10:57:01.3 CH8: Correction Factor = 1.00798
+10:57:01.4 CH1: Correction Factor = 1.00119
+10:57:01.4 CH2: Correction Factor = 1.00098
+10:57:01.4 CH3: Correction Factor = 1.00386
+10:57:01.4 CH4: Correction Factor = 1.00037
+10:57:01.4 CH5: Correction Factor = 0.999017
+10:57:01.4 CH6: Correction Factor = 1.00023
+10:57:01.4 CH7: Correction Factor = 1.00135
+10:57:01.4 CH8: Correction Factor = 1.00087
+10:57:01.4 Sensor 1: Integration Time = 3.0 ms
+10:57:01.4 Sensor 2: Integration Time = 2.4 ms
+10:57:01.4 Sensor 3: Integration Time = 2.3 ms
+10:57:01.4 Sensor 4: Integration Time = 3.2 ms
+10:57:01.4 Sensor 5: Integration Time = 2.5 ms
+10:57:01.4 Sensor 6: Integration Time = 3.1 ms
+10:57:01.4 Sensor 7: Integration Time = 2.0 ms
+10:57:01.4 Sensor 8: Integration Time = 2.5 ms
+10:57:01.4 WaitControllerIdle(30000)
+10:57:07.9 Old State:9-ENGN_StateRunning_CheckingSensors New State:ENGN_StateRunning_PickingSensorsComplete10:57:07.9 
+10:57:07.9 StartShaker(1000)
+10:57:07.9 Integration Time:  3.0, 2.4, 2.3, 3.2, 2.5, 3.1, 2.0, 2.5,
+10:57:08.0 Plate temperature = 29 C
+10:57:08.4 Old State:10-ENGN_StateRunning_PickingSensorsComplete New State:ENGN_StateRunning_WaitGoingToSample10:57:08.4 
+10:57:08.4 Sample96_Q(0, 0)
+10:57:08.6 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample10:57:08.6 
+10:57:12.8 
+10:57:12.8 START SCAN: 
+10:57:12.8    CycleTime (ms)    = 200
+10:57:12.8    CycleCount        = 1200
+10:57:12.8    ScansToAverage    = 20
+10:57:12.8    SleepRemaining    = 1
+10:57:12.8 
+10:57:12.9 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete10:57:12.9 
+10:57:13.0 Old State:14-ENGN_StateRunning_GoingToSampleComplete New State:ENGN_StateRunning_WaitSampling10:57:13.0 
+10:57:13.0 Step started at: 10:57:08
+10:57:13.0 XYZ movement time  = 4438 ms
+10:57:13.0 + Scan start delay = 4406 ms
+10:57:13.2 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling10:57:13.2 
+11:01:12.8 
+11:01:12.8 STOP SCAN: 
+11:01:12.8    CycleTime (ms)    = 200
+11:01:12.8    CurrentCycle      = 1200
+11:01:12.8    RunTime (ms)      = 239967
+11:01:12.8    AverageCycle (ms) = 199
+11:01:12.8    DATA OVERRUN %    = 0.00
+11:01:12.8 
+11:01:12.9 Old State:16-cycle=1200, Elapsed Time:  239.8,  Ideal Time:  239.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete11:01:12.9 
+11:01:13.0 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitNewStep11:01:13.0 
+11:01:13.4 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep11:01:13.4 
+11:01:13.4 StartShaker(1000)
+11:01:13.8 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample11:01:13.8 
+11:01:13.8 Sample96_Q(0, 1)
+11:01:14.0 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample11:01:14.0 
+11:01:18.1 
+11:01:18.1 START SCAN: 
+11:01:18.1    CycleTime (ms)    = 200
+11:01:18.1    CycleCount        = 1500
+11:01:18.1    ScansToAverage    = 20
+11:01:18.1    SleepRemaining    = 1
+11:01:18.1 
+11:01:18.3 Old State:13-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_GoingToSampleComplete11:01:18.3 
+11:01:18.4 Old State:14-ENGN_StateRunning_GoingToSampleComplete New State:ENGN_StateRunning_WaitSampling11:01:18.4 
+11:01:18.4 Step started at: 11:01:13
+11:01:18.4 XYZ movement time  = 4391 ms
+11:01:18.4 + Scan start delay = 4313 ms
+11:01:18.5 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling11:01:18.5 
+11:03:06.3 
+11:03:06.3 STOP SCAN: 
+11:03:06.3    CycleTime (ms)    = 200
+11:03:06.3    CurrentCycle      = 541
+11:03:06.3    RunTime (ms)      = 108171
+11:03:06.3    AverageCycle (ms) = 199
+11:03:06.3    DATA OVERRUN %    = 0.00
+11:03:06.3 
+11:03:06.4 Old State:16-cycle=541, Elapsed Time:  108.0,  Ideal Time:  108.0,  Delay time =   0.03  New State:ENGN_StateRunning_SamplingSkipped11:03:06.4 
+11:03:06.6 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep11:03:06.6 
+11:03:06.9 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep11:03:06.9 
+11:03:06.9 StartShaker(1000)
+11:03:07.4 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample11:03:07.4 
+11:03:07.4 Sample96_Q(0, 0)
+11:03:07.6 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample11:03:07.6 
+11:03:11.8 
+11:03:11.8 START SCAN: 
+11:03:11.8    CycleTime (ms)    = 200
+11:03:11.8    CycleCount        = 1200
+11:03:11.8    ScansToAverage    = 20
+11:03:11.8    SleepRemaining    = 1
+11:03:11.8 
+11:03:11.9 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete11:03:11.9 
+11:03:12.0 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling11:03:12.0 
+11:03:12.0 Step started at: 11:03:07
+11:03:12.0 XYZ movement time  = 4468 ms
+11:03:12.0 + Scan start delay = 4484 ms
+11:03:12.2 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling11:03:12.2 
+11:07:11.8 
+11:07:11.8 STOP SCAN: 
+11:07:11.8    CycleTime (ms)    = 200
+11:07:11.8    CurrentCycle      = 1200
+11:07:11.8    RunTime (ms)      = 239967
+11:07:11.8    AverageCycle (ms) = 199
+11:07:11.8    DATA OVERRUN %    = 0.00
+11:07:11.8 
+11:07:11.9 Old State:16-cycle=1200, Elapsed Time:  239.8,  Ideal Time:  239.8,  Delay time =   0.05  New State:ENGN_StateRunning_SamplingComplete11:07:11.9 
+11:07:12.0 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitNewStep11:07:12.0 
+11:07:12.4 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep11:07:12.4 
+11:07:12.4 StartShaker(1000)
+11:07:12.9 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample11:07:12.9 
+11:07:12.9 Sample96_Q(0, 3)
+11:07:13.1 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample11:07:13.1 
+11:07:18.3 
+11:07:18.3 START SCAN: 
+11:07:18.3    CycleTime (ms)    = 200
+11:07:18.3    CycleCount        = 9000
+11:07:18.3    ScansToAverage    = 20
+11:07:18.3    SleepRemaining    = 1
+11:07:18.3 
+11:07:18.4 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete11:07:18.4 
+11:07:18.5 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling11:07:18.5 
+11:07:18.5 Step started at: 11:07:12
+11:07:18.5 XYZ movement time  = 5469 ms
+11:07:18.5 + Scan start delay = 5422 ms
+11:07:18.7 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling11:07:18.7 
+11:36:48.4 
+11:36:48.4 STOP SCAN: 
+11:36:48.4    CycleTime (ms)    = 200
+11:36:48.4    CurrentCycle      = 8850
+11:36:48.4    RunTime (ms)      = 1770010
+11:36:48.4    AverageCycle (ms) = 200
+11:36:48.4    DATA OVERRUN %    = 0.00
+11:36:48.4 
+11:36:48.6 Old State:16-cycle=8850, Elapsed Time: 1770.0,  Ideal Time: 1770.0,  Delay time =   0.05  New State:ENGN_StateRunning_SamplingSkipped11:36:48.6 
+11:36:48.7 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep11:36:48.7 
+11:36:48.9 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep11:36:48.9 
+11:36:49.0 StartShaker(1000)
+11:36:49.4 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample11:36:49.4 
+11:36:49.4 Sample96_Q(0, 0)
+11:36:49.6 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample11:36:49.6 
+11:36:54.8 
+11:36:54.8 START SCAN: 
+11:36:54.8    CycleTime (ms)    = 200
+11:36:54.8    CycleCount        = 1000
+11:36:54.8    ScansToAverage    = 20
+11:36:54.8    SleepRemaining    = 1
+11:36:54.8 
+11:36:55.0 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete11:36:55.0 
+11:36:55.1 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling11:36:55.1 
+11:36:55.1 Step started at: 11:36:49
+11:36:55.1 XYZ movement time  = 5453 ms
+11:36:55.1 + Scan start delay = 5422 ms
+11:36:55.2 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling11:36:55.2 
+11:37:39.0 
+11:37:39.0 STOP SCAN: 
+11:37:39.0    CycleTime (ms)    = 200
+11:37:39.0    CurrentCycle      = 221
+11:37:39.0    RunTime (ms)      = 44156
+11:37:39.0    AverageCycle (ms) = 199
+11:37:39.0    DATA OVERRUN %    = 0.00
+11:37:39.0 
+11:37:39.1 Old State:16-cycle=221, Elapsed Time:   44.0,  Ideal Time:   44.0,  Delay time =   0.05  New State:ENGN_StateRunning_SamplingSkipped11:37:39.1 
+11:37:39.2 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitEjecting11:37:39.2 
+11:37:39.2 EJECT: To Chute, position=0
+11:37:39.5 Old State:19-ENGN_StateRunning_WaitEjecting New State:ENGN_StateRunning_Ejecting11:37:39.5 
+11:37:58.5 Old State:20-ENGN_StateRunning_Ejecting New State:ENGN_StateRunning_EjectingComplete11:37:58.5 
+11:37:58.6 Old State:21-ENGN_StateRunning_EjectingComplete New State:ENGN_StateRunning_Finished11:37:58.6 

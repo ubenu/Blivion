@@ -1,0 +1,1124 @@
+2 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete12:08:54.2 
+12:08:54.3 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling12:08:54.3 
+12:08:54.3 Step started at: 12:08:45
+12:08:54.3 XYZ movement time  = 8392 ms
+12:08:54.3 + Scan start delay = 8392 ms
+12:08:54.4 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling12:08:54.4 
+12:10:53.2 
+12:10:53.2 STOP SCAN: 
+12:10:53.2    CycleTime (ms)    = 200
+12:10:53.2    CurrentCycle      = 596
+12:10:53.2    RunTime (ms)      = 119158
+12:10:53.2    AverageCycle (ms) = 199
+12:10:53.2    DATA OVERRUN %    = 0.00
+12:10:53.2 
+12:10:53.4 Old State:16-cycle=596, Elapsed Time:  119.0,  Ideal Time:  119.0,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped12:10:53.4 
+12:10:53.5 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep12:10:53.5 
+12:10:53.8 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep12:10:53.8 
+12:10:53.8 StartShaker(1000)
+12:10:54.2 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample12:10:54.2 
+12:10:54.2 Sample96_Q(0, 7)
+12:10:54.4 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample12:10:54.4 
+12:11:02.1 
+12:11:02.1 START SCAN: 
+12:11:02.1    CycleTime (ms)    = 200
+12:11:02.1    CycleCount        = 1000
+12:11:02.1    ScansToAverage    = 20
+12:11:02.1    SleepRemaining    = 1
+12:11:02.1 
+12:11:02.2 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete12:11:02.2 
+12:11:02.3 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling12:11:02.3 
+12:11:02.3 Step started at: 12:10:54
+12:11:02.3 XYZ movement time  = 7903 ms
+12:11:02.3 + Scan start delay = 7876 ms
+12:11:02.4 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling12:11:02.4 
+12:11:24.5 
+12:11:24.5 STOP SCAN: 
+12:11:24.5    CycleTime (ms)    = 200
+12:11:24.5    CurrentCycle      = 112
+12:11:24.5    RunTime (ms)      = 22357
+12:11:24.5    AverageCycle (ms) = 199
+12:11:24.5    DATA OVERRUN %    = 0.00
+12:11:24.5 
+12:11:24.6 Old State:16-cycle=112, Elapsed Time:   22.2,  Ideal Time:   22.2,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped12:11:24.6 
+12:11:24.7 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitEjecting12:11:24.7 
+12:11:24.7 EJECT: To Chute, position=0
+12:11:24.9 Old State:19-ENGN_StateRunning_WaitEjecting New State:ENGN_StateRunning_Ejecting12:11:24.9 
+12:11:46.0 Old State:20-ENGN_StateRunning_Ejecting New State:ENGN_StateRunning_EjectingComplete12:11:46.0 
+12:11:46.1 Old State:21-ENGN_StateRunning_EjectingComplete New State:ENGN_StateRunning_Finished12:11:46.1 
+12:11:46.2 Old State:22-ENGN_StateRunning_Finished New State:ENGN_State_SystemReady12:11:46.2 
+12:31:45.5 bShakeWhileWaiting=1, nShakerRPM=1000
+12:31:45.7 Old State:4-ENGN_State_SystemReady New State:ENGN_State_ControllerBusy12:31:45.7 
+12:31:46.5 Old State:29-ENGN_State_ControllerBusy New State:ENGN_State_ControllerDone12:31:46.5 
+12:31:46.6 Old State:30-ENGN_State_ControllerDone New State:ENGN_State_SystemReady12:31:46.6 
+12:31:46.6 StartShaker(1000)
+12:31:51.4 Starting new assay12:31:51.4 
+12:31:51.6 Old State:4-ENGN_State_SystemReady New State:ENGN_StateRunning_StartNewStep12:31:51.6 
+12:31:51.6 Plate temperature = 25 C
+12:31:51.7 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitPickingSensors12:31:51.7 
+12:31:51.8 Old State:7-ENGN_StateRunning_WaitPickingSensors New State:ENGN_StateRunning_PickingSensors12:31:51.8 
+12:32:00.1 Old State:8-ENGN_StateRunning_PickingSensors New State:ENGN_StateRunning_CheckingSensors12:32:00.1 
+12:32:00.3 
+12:32:00.3 Detect Sensors
+12:32:00.3 ==============
+12:32:00.3 1	YES		8.4	5014.8
+12:32:00.3 2	YES		8.2	5496.4
+12:32:00.3 3	YES		8.9	6543.7
+12:32:00.3 4	YES		8.4	4626.6
+12:32:00.3 5	YES		8.4	6215.3
+12:32:00.3 6	YES		8.1	4808.8
+12:32:00.3 7	YES		7.9	6931.2
+12:32:00.3 8	YES		8.2	5523.4
+12:32:00.3 
+12:32:00.5 CH1: Correction Factor = 2.64876
+12:32:00.5 CH2: Correction Factor = 2.38547
+12:32:00.5 CH3: Correction Factor = 2.11128
+12:32:00.5 CH4: Correction Factor = 2.93279
+12:32:00.5 CH5: Correction Factor = 2.28376
+12:32:00.5 CH6: Correction Factor = 2.81696
+12:32:00.5 CH7: Correction Factor = 1.83225
+12:32:00.5 CH8: Correction Factor = 2.47597
+12:32:00.6 CH1: Correction Factor = 1.08087
+12:32:00.6 CH2: Correction Factor = 1.07474
+12:32:00.6 CH3: Correction Factor = 1.06419
+12:32:00.7 CH4: Correction Factor = 1.07984
+12:32:00.7 CH5: Correction Factor = 1.0709
+12:32:00.7 CH6: Correction Factor = 1.07301
+12:32:00.7 CH7: Correction Factor = 1.06074
+12:32:00.7 CH8: Correction Factor = 1.08125
+12:32:00.8 CH1: Correction Factor = 1.01157
+12:32:00.8 CH2: Correction Factor = 1.00897
+12:32:00.8 CH3: Correction Factor = 1.01025
+12:32:00.8 CH4: Correction Factor = 1.01089
+12:32:00.8 CH5: Correction Factor = 1.00959
+12:32:00.8 CH6: Correction Factor = 1.0076
+12:32:00.8 CH7: Correction Factor = 1.00859
+12:32:00.8 CH8: Correction Factor = 1.01221
+12:32:01.0 CH1: Correction Factor = 0.999258
+12:32:01.0 CH2: Correction Factor = 1.00217
+12:32:01.0 CH3: Correction Factor = 0.999419
+12:32:01.0 CH4: Correction Factor = 0.999935
+12:32:01.0 CH5: Correction Factor = 1.00251
+12:32:01.0 CH6: Correction Factor = 1.00211
+12:32:01.0 CH7: Correction Factor = 0.999849
+12:32:01.0 CH8: Correction Factor = 0.996294
+12:32:01.0 Sensor 1: Integration Time = 2.9 ms
+12:32:01.0 Sensor 2: Integration Time = 2.6 ms
+12:32:01.0 Sensor 3: Integration Time = 2.3 ms
+12:32:01.0 Sensor 4: Integration Time = 3.2 ms
+12:32:01.0 Sensor 5: Integration Time = 2.5 ms
+12:32:01.0 Sensor 6: Integration Time = 3.1 ms
+12:32:01.0 Sensor 7: Integration Time = 2.0 ms
+12:32:01.0 Sensor 8: Integration Time = 2.7 ms
+12:32:01.0 WaitControllerIdle(30000)
+12:32:07.4 Old State:9-ENGN_StateRunning_CheckingSensors New State:ENGN_StateRunning_PickingSensorsComplete12:32:07.4 
+12:32:07.4 StartShaker(1000)
+12:32:07.4 Integration Time:  2.9, 2.6, 2.3, 3.2, 2.5, 3.1, 2.0, 2.7,
+12:32:07.7 Plate temperature = 25 C
+12:32:07.8 Old State:10-ENGN_StateRunning_PickingSensorsComplete New State:ENGN_StateRunning_WaitGoingToSample12:32:07.8 
+12:32:07.8 Sample96_Q(0, 8)
+12:32:08.0 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample12:32:08.0 
+12:32:14.5 
+12:32:14.5 START SCAN: 
+12:32:14.5    CycleTime (ms)    = 200
+12:32:14.5    CycleCount        = 1200
+12:32:14.5    ScansToAverage    = 20
+12:32:14.5    SleepRemaining    = 1
+12:32:14.5 
+12:32:14.6 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete12:32:14.6 
+12:32:14.7 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling12:32:14.7 
+12:32:14.7 Step started at: 12:32:07
+12:32:14.7 XYZ movement time  = 6689 ms
+12:32:14.7 + Scan start delay = 6688 ms
+12:32:14.8 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling12:32:14.8 
+12:36:14.5 
+12:36:14.5 STOP SCAN: 
+12:36:14.5    CycleTime (ms)    = 200
+12:36:14.5    CurrentCycle      = 1200
+12:36:14.5    RunTime (ms)      = 239957
+12:36:14.5    AverageCycle (ms) = 199
+12:36:14.5    DATA OVERRUN %    = 0.00
+12:36:14.5 
+12:36:14.5 Old State:16-cycle=1200, Elapsed Time:  239.8,  Ideal Time:  239.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete12:36:14.5 
+12:36:14.7 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitNewStep12:36:14.7 
+12:36:14.7 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep12:36:14.7 
+12:36:14.8 StartShaker(1000)
+12:36:15.2 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample12:36:15.2 
+12:36:15.2 Sample96_Q(0, 9)
+12:36:15.4 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample12:36:15.4 
+12:36:24.2 
+12:36:24.2 START SCAN: 
+12:36:24.2    CycleTime (ms)    = 200
+12:36:24.2    CycleCount        = 1500
+12:36:24.2    ScansToAverage    = 20
+12:36:24.2    SleepRemaining    = 1
+12:36:24.2 
+12:36:24.3 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete12:36:24.3 
+12:36:24.4 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling12:36:24.4 
+12:36:24.4 Step started at: 12:36:15
+12:36:24.4 XYZ movement time  = 9006 ms
+12:36:24.4 + Scan start delay = 9006 ms
+12:36:24.5 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling12:36:24.5 
+12:40:45.9 
+12:40:45.9 STOP SCAN: 
+12:40:45.9    CycleTime (ms)    = 200
+12:40:45.9    CurrentCycle      = 1309
+12:40:45.9    RunTime (ms)      = 261757
+12:40:45.9    AverageCycle (ms) = 199
+12:40:45.9    DATA OVERRUN %    = 0.00
+12:40:45.9 
+12:40:46.0 Old State:16-cycle=1309, Elapsed Time:  261.6,  Ideal Time:  261.6,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped12:40:46.0 
+12:40:46.1 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep12:40:46.1 
+12:40:46.3 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep12:40:46.3 
+12:40:46.3 StartShaker(1000)
+12:40:46.7 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample12:40:46.7 
+12:40:46.7 Sample96_Q(0, 8)
+12:40:47.0 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample12:40:47.0 
+12:40:55.9 
+12:40:55.9 START SCAN: 
+12:40:55.9    CycleTime (ms)    = 200
+12:40:55.9    CycleCount        = 1200
+12:40:55.9    ScansToAverage    = 20
+12:40:55.9    SleepRemaining    = 1
+12:40:55.9 
+12:40:56.0 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete12:40:56.0 
+12:40:56.1 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling12:40:56.1 
+12:40:56.1 Step started at: 12:40:46
+12:40:56.1 XYZ movement time  = 9181 ms
+12:40:56.1 + Scan start delay = 9143 ms
+12:40:56.2 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling12:40:56.2 
+12:44:55.8 
+12:44:55.8 STOP SCAN: 
+12:44:55.8    CycleTime (ms)    = 200
+12:44:55.8    CurrentCycle      = 1200
+12:44:55.8    RunTime (ms)      = 239955
+12:44:55.8    AverageCycle (ms) = 199
+12:44:55.8    DATA OVERRUN %    = 0.00
+12:44:55.8 
+12:44:55.9 Old State:16-cycle=1200, Elapsed Time:  239.8,  Ideal Time:  239.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete12:44:55.9 
+12:44:56.0 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitNewStep12:44:56.0 
+12:44:56.2 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep12:44:56.2 
+12:44:56.3 StartShaker(1000)
+12:44:56.7 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample12:44:56.7 
+12:44:56.7 Sample96_Q(0, 10)
+12:44:56.9 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample12:44:56.9 
+12:45:05.9 
+12:45:05.9 START SCAN: 
+12:45:05.9    CycleTime (ms)    = 200
+12:45:05.9    CycleCount        = 9000
+12:45:05.9    ScansToAverage    = 20
+12:45:05.9    SleepRemaining    = 1
+12:45:05.9 
+12:45:06.0 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete12:45:06.0 
+12:45:06.1 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling12:45:06.1 
+12:45:06.1 Step started at: 12:44:56
+12:45:06.1 XYZ movement time  = 9212 ms
+12:45:06.1 + Scan start delay = 9178 ms
+12:45:06.2 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling12:45:06.2 
+12:45:43.7 
+12:45:43.7 STOP SCAN: 
+12:45:43.7    CycleTime (ms)    = 200
+12:45:43.7    CurrentCycle      = 189
+12:45:43.7    RunTime (ms)      = 37800
+12:45:43.7    AverageCycle (ms) = 200
+12:45:43.7    DATA OVERRUN %    = 0.00
+12:45:43.7 
+12:45:43.7 Old State:16-cycle=189, Elapsed Time:   37.8,  Ideal Time:   37.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped12:45:43.7 
+12:45:43.8 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep12:45:43.8 
+12:45:44.0 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep12:45:44.0 
+12:45:44.0 StartShaker(1000)
+12:45:44.5 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample12:45:44.5 
+12:45:44.5 Sample96_Q(0, 11)
+12:45:44.7 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample12:45:44.7 
+12:45:54.5 
+12:45:54.5 START SCAN: 
+12:45:54.5    CycleTime (ms)    = 200
+12:45:54.5    CycleCount        = 1000
+12:45:54.5    ScansToAverage    = 20
+12:45:54.5    SleepRemaining    = 1
+12:45:54.5 
+12:45:54.7 Old State:13-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_GoingToSampleComplete12:45:54.7 
+12:45:54.8 Old State:14-ENGN_StateRunning_GoingToSampleComplete New State:ENGN_StateRunning_WaitSampling12:45:54.8 
+12:45:54.8 Step started at: 12:45:44
+12:45:54.8 XYZ movement time  = 10112 ms
+12:45:54.8 + Scan start delay = 10038 ms
+12:45:54.9 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling12:45:54.9 
+12:49:14.5 
+12:49:14.5 STOP SCAN: 
+12:49:14.5    CycleTime (ms)    = 200
+12:49:14.5    CurrentCycle      = 1000
+12:49:14.5    RunTime (ms)      = 199957
+12:49:14.5    AverageCycle (ms) = 199
+12:49:14.5    DATA OVERRUN %    = 0.00
+12:49:14.5 
+12:49:14.5 Old State:16-cycle=1000, Elapsed Time:  199.8,  Ideal Time:  199.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete12:49:14.5 
+12:49:14.7 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitEjecting12:49:14.7 
+12:49:14.7 EJECT: To Chute, position=0
+12:49:14.9 Old State:19-ENGN_StateRunning_WaitEjecting New State:ENGN_StateRunning_Ejecting12:49:14.9 
+12:49:37.4 Old State:20-ENGN_StateRunning_Ejecting New State:ENGN_StateRunning_EjectingComplete12:49:37.4 
+12:49:37.5 Old State:21-ENGN_StateRunning_EjectingComplete New State:ENGN_StateRunning_Finished12:49:37.5 
+12:49:37.6 Old State:22-ENGN_StateRunning_Finished New State:ENGN_State_SystemReady12:49:37.6 
+13:27:35.1 bShakeWhileWaiting=1, nShakerRPM=1000
+13:27:35.2 Old State:4-ENGN_State_SystemReady New State:ENGN_State_ControllerBusy13:27:35.2 
+13:27:36.1 Old State:29-ENGN_State_ControllerBusy New State:ENGN_State_ControllerDone13:27:36.1 
+13:27:36.2 StartShaker(1000)
+13:27:36.2 Old State:30-ENGN_State_ControllerDone New State:ENGN_State_SystemReady13:27:36.2 
+13:27:44.1 Starting new assay13:27:44.1 
+13:27:44.3 Plate temperature = 24 C
+13:27:44.3 Old State:4-ENGN_State_SystemReady New State:ENGN_StateRunning_StartNewStep13:27:44.3 
+13:27:44.4 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitPickingSensors13:27:44.4 
+13:27:44.6 Old State:7-ENGN_StateRunning_WaitPickingSensors New State:ENGN_StateRunning_PickingSensors13:27:44.6 
+13:27:53.1 Old State:8-ENGN_StateRunning_PickingSensors New State:ENGN_StateRunning_CheckingSensors13:27:53.1 
+13:27:53.3 
+13:27:53.3 Detect Sensors
+13:27:53.3 ==============
+13:27:53.3 1	YES		8.4	4942.8
+13:27:53.3 2	YES		8.2	5559.5
+13:27:53.3 3	YES		8.9	6545.5
+13:27:53.3 4	YES		8.4	4528.5
+13:27:53.3 5	YES		8.4	6292.5
+13:27:53.3 6	YES		8.1	4934.4
+13:27:53.3 7	YES		7.9	6791.4
+13:27:53.3 8	YES		8.2	5548.3
+13:27:53.3 
+13:27:53.4 CH1: Correction Factor = 2.71742
+13:27:53.4 CH2: Correction Factor = 2.34957
+13:27:53.4 CH3: Correction Factor = 2.09546
+13:27:53.4 CH4: Correction Factor = 3.02145
+13:27:53.4 CH5: Correction Factor = 2.25337
+13:27:53.4 CH6: Correction Factor = 2.75817
+13:27:53.4 CH7: Correction Factor = 1.91549
+13:27:53.4 CH8: Correction Factor = 2.50991
+13:27:53.6 CH1: Correction Factor = 1.0796
+13:27:53.6 CH2: Correction Factor = 1.07133
+13:27:53.6 CH3: Correction Factor = 1.06489
+13:27:53.6 CH4: Correction Factor = 1.07789
+13:27:53.6 CH5: Correction Factor = 1.06914
+13:27:53.6 CH6: Correction Factor = 1.0837
+13:27:53.6 CH7: Correction Factor = 1.06428
+13:27:53.6 CH8: Correction Factor = 1.07592
+13:27:53.7 CH1: Correction Factor = 1.00884
+13:27:53.7 CH2: Correction Factor = 1.01154
+13:27:53.7 CH3: Correction Factor = 1.00654
+13:27:53.7 CH4: Correction Factor = 1.01101
+13:27:53.7 CH5: Correction Factor = 1.01076
+13:27:53.7 CH6: Correction Factor = 0.999201
+13:27:53.7 CH7: Correction Factor = 1.00951
+13:27:53.7 CH8: Correction Factor = 1.00993
+13:27:53.9 CH1: Correction Factor = 0.999959
+13:27:53.9 CH2: Correction Factor = 1.00142
+13:27:53.9 CH3: Correction Factor = 1.00275
+13:27:53.9 CH4: Correction Factor = 1.00074
+13:27:53.9 CH5: Correction Factor = 1.00001
+13:27:53.9 CH6: Correction Factor = 0.99937
+13:27:53.9 CH7: Correction Factor = 1.0012
+13:27:53.9 CH8: Correction Factor = 1.0039
+13:27:53.9 Sensor 1: Integration Time = 3.0 ms
+13:27:53.9 Sensor 2: Integration Time = 2.5 ms
+13:27:53.9 Sensor 3: Integration Time = 2.3 ms
+13:27:53.9 Sensor 4: Integration Time = 3.3 ms
+13:27:53.9 Sensor 5: Integration Time = 2.4 ms
+13:27:53.9 Sensor 6: Integration Time = 3.0 ms
+13:27:53.9 Sensor 7: Integration Time = 2.1 ms
+13:27:53.9 Sensor 8: Integration Time = 2.7 ms
+13:27:53.9 WaitControllerIdle(30000)
+13:28:00.3 Old State:9-ENGN_StateRunning_CheckingSensors New State:ENGN_StateRunning_PickingSensorsComplete13:28:00.3 
+13:28:00.3 StartShaker(1000)
+13:28:00.3 Integration Time:  3.0, 2.5, 2.3, 3.3, 2.4, 3.0, 2.1, 2.7,
+13:28:00.6 Plate temperature = 25 C
+13:28:00.7 Old State:10-ENGN_StateRunning_PickingSensorsComplete New State:ENGN_StateRunning_WaitGoingToSample13:28:00.7 
+13:28:00.7 Sample96_Q(0, 0)
+13:28:00.9 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample13:28:00.9 
+13:28:05.1 
+13:28:05.1 START SCAN: 
+13:28:05.1    CycleTime (ms)    = 200
+13:28:05.1    CycleCount        = 1200
+13:28:05.1    ScansToAverage    = 20
+13:28:05.1    SleepRemaining    = 1
+13:28:05.1 
+13:28:05.2 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete13:28:05.2 
+13:28:05.2 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling13:28:05.2 
+13:28:05.2 Step started at: 13:28:00
+13:28:05.2 XYZ movement time  = 4334 ms
+13:28:05.2 + Scan start delay = 4344 ms
+13:28:05.3 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling13:28:05.3 
+13:32:05.0 
+13:32:05.0 STOP SCAN: 
+13:32:05.0    CycleTime (ms)    = 200
+13:32:05.0    CurrentCycle      = 1200
+13:32:05.0    RunTime (ms)      = 239958
+13:32:05.0    AverageCycle (ms) = 199
+13:32:05.0    DATA OVERRUN %    = 0.00
+13:32:05.0 
+13:32:05.0 Old State:16-cycle=1200, Elapsed Time:  239.8,  Ideal Time:  239.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete13:32:05.0 
+13:32:05.2 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitNewStep13:32:05.2 
+13:32:05.4 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep13:32:05.4 
+13:32:05.4 StartShaker(1000)
+13:32:05.8 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample13:32:05.8 
+13:32:05.8 Sample96_Q(0, 1)
+13:32:06.0 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample13:32:06.0 
+13:32:10.2 
+13:32:10.2 START SCAN: 
+13:32:10.2    CycleTime (ms)    = 200
+13:32:10.2    CycleCount        = 1500
+13:32:10.2    ScansToAverage    = 20
+13:32:10.2    SleepRemaining    = 1
+13:32:10.2 
+13:32:10.3 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete13:32:10.3 
+13:32:10.4 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling13:32:10.4 
+13:32:10.4 Step started at: 13:32:05
+13:32:10.4 XYZ movement time  = 4394 ms
+13:32:10.4 + Scan start delay = 4364 ms
+13:32:10.5 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling13:32:10.5 
+13:35:51.2 
+13:35:51.2 STOP SCAN: 
+13:35:51.2    CycleTime (ms)    = 200
+13:35:51.2    CurrentCycle      = 1105
+13:35:51.2    RunTime (ms)      = 221000
+13:35:51.2    AverageCycle (ms) = 200
+13:35:51.2    DATA OVERRUN %    = 0.00
+13:35:51.2 
+13:35:51.3 Old State:16-cycle=1105, Elapsed Time:  221.0,  Ideal Time:  221.0,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped13:35:51.3 
+13:35:51.4 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep13:35:51.4 
+13:35:51.5 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep13:35:51.5 
+13:35:51.5 StartShaker(1000)
+13:35:51.9 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample13:35:51.9 
+13:35:51.9 Sample96_Q(0, 0)
+13:35:52.1 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample13:35:52.1 
+13:35:56.3 
+13:35:56.3 START SCAN: 
+13:35:56.3    CycleTime (ms)    = 200
+13:35:56.3    CycleCount        = 1200
+13:35:56.3    ScansToAverage    = 20
+13:35:56.3    SleepRemaining    = 1
+13:35:56.3 
+13:35:56.4 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete13:35:56.4 
+13:35:56.5 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling13:35:56.5 
+13:35:56.5 Step started at: 13:35:52
+13:35:56.5 XYZ movement time  = 4364 ms
+13:35:56.5 + Scan start delay = 4374 ms
+13:35:56.6 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling13:35:56.6 
+13:37:21.5 
+13:37:21.5 STOP SCAN: 
+13:37:21.5    CycleTime (ms)    = 200
+13:37:21.5    CurrentCycle      = 426
+13:37:21.5    RunTime (ms)      = 85157
+13:37:21.5    AverageCycle (ms) = 199
+13:37:21.5    DATA OVERRUN %    = 0.00
+13:37:21.5 
+13:37:21.6 Old State:16-cycle=426, Elapsed Time:   85.0,  Ideal Time:   85.0,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped13:37:21.6 
+13:37:21.7 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep13:37:21.7 
+13:37:21.9 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep13:37:21.9 
+13:37:21.9 StartShaker(1000)
+13:37:22.3 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample13:37:22.3 
+13:37:22.3 Sample96_Q(0, 2)
+13:37:22.5 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample13:37:22.5 
+13:37:27.1 
+13:37:27.1 START SCAN: 
+13:37:27.1    CycleTime (ms)    = 200
+13:37:27.1    CycleCount        = 9000
+13:37:27.1    ScansToAverage    = 20
+13:37:27.1    SleepRemaining    = 1
+13:37:27.1 
+13:37:27.2 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete13:37:27.2 
+13:37:27.3 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling13:37:27.3 
+13:37:27.3 Step started at: 13:37:22
+13:37:27.3 XYZ movement time  = 4734 ms
+13:37:27.3 + Scan start delay = 4731 ms
+13:37:27.4 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling13:37:27.4 
+13:39:04.0 
+13:39:04.0 STOP SCAN: 
+13:39:04.0    CycleTime (ms)    = 200
+13:39:04.0    CurrentCycle      = 485
+13:39:04.0    RunTime (ms)      = 96958
+13:39:04.0    AverageCycle (ms) = 199
+13:39:04.0    DATA OVERRUN %    = 0.00
+13:39:04.0 
+13:39:04.1 Old State:16-cycle=485, Elapsed Time:   96.8,  Ideal Time:   96.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped13:39:04.1 
+13:39:04.2 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep13:39:04.2 
+13:39:04.4 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep13:39:04.4 
+13:39:04.4 StartShaker(1000)
+13:39:04.8 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample13:39:04.8 
+13:39:04.8 Sample96_Q(0, 0)
+13:39:05.0 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample13:39:05.0 
+13:39:09.6 
+13:39:09.6 START SCAN: 
+13:39:09.6    CycleTime (ms)    = 200
+13:39:09.6    CycleCount        = 1000
+13:39:09.6    ScansToAverage    = 20
+13:39:09.6    SleepRemaining    = 1
+13:39:09.6 
+13:39:09.7 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete13:39:09.7 
+13:39:09.8 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling13:39:09.8 
+13:39:09.8 Step started at: 13:39:04
+13:39:09.8 XYZ movement time  = 4790 ms
+13:39:09.8 + Scan start delay = 4799 ms
+13:39:09.9 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling13:39:09.9 
+13:42:29.5 
+13:42:29.5 STOP SCAN: 
+13:42:29.5    CycleTime (ms)    = 200
+13:42:29.5    CurrentCycle      = 1000
+13:42:29.5    RunTime (ms)      = 199958
+13:42:29.5    AverageCycle (ms) = 199
+13:42:29.5    DATA OVERRUN %    = 0.00
+13:42:29.5 
+13:42:29.6 Old State:16-cycle=1000, Elapsed Time:  199.8,  Ideal Time:  199.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete13:42:29.6 
+13:42:29.7 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitEjecting13:42:29.7 
+13:42:29.7 EJECT: To Chute, position=0
+13:42:30.0 Old State:19-ENGN_StateRunning_WaitEjecting New State:ENGN_StateRunning_Ejecting13:42:30.0 
+13:42:48.7 Old State:20-ENGN_StateRunning_Ejecting New State:ENGN_StateRunning_EjectingComplete13:42:48.7 
+13:42:48.8 Old State:21-ENGN_StateRunning_EjectingComplete New State:ENGN_StateRunning_Finished13:42:48.8 
+13:42:48.9 Old State:22-ENGN_StateRunning_Finished New State:ENGN_State_SystemReady13:42:48.9 
+13:43:46.6 MultiWellPlate: DLL_PROCESS_ATTACH - V1.0.0.6
+13:44:21.4 Progress: 0 %
+13:44:21.4 Progress: 12 %
+13:44:21.4 Progress: 25 %
+13:44:21.5 Progress: 37 %
+13:44:21.5 Progress: 50 %
+13:44:21.5 Progress: 62 %
+13:44:21.5 Progress: 75 %
+13:44:21.6 Progress: 87 %
+13:44:21.6 Progress: 100 %
+13:44:21.7 Read C:\Documents and Settings\octet\Desktop\Octet Data\Steve\230611 - Toulouse 6SLN\Experiment_11 23 sln Toulouse 878\110627_ExpMethod.fmf in 0 ms
+13:44:21.9 Read C:\Documents and Settings\octet\Desktop\Octet Data\Steve\230611 - Toulouse 6SLN\Experiment_11 23 sln Toulouse 878\110627_ExpMethod.fmf in 16 ms
+13:44:25.7 
+13:44:25.7 In StExperiment.Init()
+13:44:25.7 
+13:44:25.7 Time = 32 ms
+13:44:25.7 
+13:44:39.9 MultiWellPlate: DLL_PROCESS_DETACH.
+13:58:05.9 bShakeWhileWaiting=1, nShakerRPM=1000
+13:58:06.0 Old State:4-ENGN_State_SystemReady New State:ENGN_State_ControllerBusy13:58:06.0 
+13:58:06.9 Old State:29-ENGN_State_ControllerBusy New State:ENGN_State_ControllerDone13:58:06.9 
+13:58:07.0 StartShaker(1000)
+13:58:07.0 Old State:30-ENGN_State_ControllerDone New State:ENGN_State_SystemReady13:58:07.0 
+14:13:07.1 Starting new assay14:13:07.1 
+14:13:07.3 Plate temperature = 25 C
+14:13:07.3 Old State:4-ENGN_State_SystemReady New State:ENGN_StateRunning_StartNewStep14:13:07.3 
+14:13:07.4 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitPickingSensors14:13:07.4 
+14:13:07.6 Old State:7-ENGN_StateRunning_WaitPickingSensors New State:ENGN_StateRunning_PickingSensors14:13:07.6 
+14:13:15.9 Old State:8-ENGN_StateRunning_PickingSensors New State:ENGN_StateRunning_CheckingSensors14:13:15.9 
+14:13:16.1 
+14:13:16.1 Detect Sensors
+14:13:16.1 ==============
+14:13:16.1 1	YES		8.4	5148.8
+14:13:16.1 2	YES		8.2	5487.5
+14:13:16.1 3	YES		8.9	6627.7
+14:13:16.1 4	YES		8.4	4842.9
+14:13:16.1 5	YES		8.4	6320.9
+14:13:16.1 6	YES		8.1	4930.4
+14:13:16.1 7	YES		7.9	6903.0
+14:13:16.1 8	YES		8.2	5628.9
+14:13:16.1 
+14:13:16.3 CH1: Correction Factor = 2.64621
+14:13:16.3 CH2: Correction Factor = 2.40505
+14:13:16.3 CH3: Correction Factor = 2.09771
+14:13:16.3 CH4: Correction Factor = 2.75616
+14:13:16.3 CH5: Correction Factor = 2.27968
+14:13:16.3 CH6: Correction Factor = 2.77642
+14:13:16.3 CH7: Correction Factor = 1.89232
+14:13:16.3 CH8: Correction Factor = 2.47438
+14:13:16.4 CH1: Correction Factor = 1.07623
+14:13:16.4 CH2: Correction Factor = 1.07238
+14:13:16.4 CH3: Correction Factor = 1.06457
+14:13:16.4 CH4: Correction Factor = 1.07599
+14:13:16.4 CH5: Correction Factor = 1.06595
+14:13:16.4 CH6: Correction Factor = 1.07007
+14:13:16.4 CH7: Correction Factor = 1.06039
+14:13:16.4 CH8: Correction Factor = 1.08157
+14:13:16.6 CH1: Correction Factor = 1.00951
+14:13:16.6 CH2: Correction Factor = 1.01026
+14:13:16.6 CH3: Correction Factor = 1.00614
+14:13:16.6 CH4: Correction Factor = 1.00889
+14:13:16.6 CH5: Correction Factor = 1.00839
+14:13:16.6 CH6: Correction Factor = 1.00647
+14:13:16.6 CH7: Correction Factor = 1.00975
+14:13:16.6 CH8: Correction Factor = 1.00854
+14:13:16.7 CH1: Correction Factor = 1.00039
+14:13:16.8 CH2: Correction Factor = 1.00018
+14:13:16.8 CH3: Correction Factor = 1.00222
+14:13:16.8 CH4: Correction Factor = 1.00013
+14:13:16.8 CH5: Correction Factor = 1.00137
+14:13:16.8 CH6: Correction Factor = 1.00097
+14:13:16.8 CH7: Correction Factor = 1.00118
+14:13:16.8 CH8: Correction Factor = 0.998943
+14:13:16.8 Sensor 1: Integration Time = 2.9 ms
+14:13:16.8 Sensor 2: Integration Time = 2.6 ms
+14:13:16.8 Sensor 3: Integration Time = 2.3 ms
+14:13:16.8 Sensor 4: Integration Time = 3.0 ms
+14:13:16.8 Sensor 5: Integration Time = 2.5 ms
+14:13:16.8 Sensor 6: Integration Time = 3.0 ms
+14:13:16.8 Sensor 7: Integration Time = 2.0 ms
+14:13:16.8 Sensor 8: Integration Time = 2.7 ms
+14:13:16.8 WaitControllerIdle(30000)
+14:13:23.2 Old State:9-ENGN_StateRunning_CheckingSensors New State:ENGN_StateRunning_PickingSensorsComplete14:13:23.2 
+14:13:23.2 StartShaker(1000)
+14:13:23.6 Old State:10-ENGN_StateRunning_PickingSensorsComplete New State:ENGN_StateRunning_WaitGoingToSample14:13:23.6 
+14:13:23.6 Sample96_Q(0, 0)
+14:13:23.9 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample14:13:23.9 
+14:13:28.0 
+14:13:28.0 START SCAN: 
+14:13:28.0    CycleTime (ms)    = 200
+14:13:28.0    CycleCount        = 1200
+14:13:28.0    ScansToAverage    = 20
+14:13:28.0    SleepRemaining    = 1
+14:13:28.0 
+14:13:28.2 Old State:13-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_GoingToSampleComplete14:13:28.2 
+14:13:28.2 Old State:14-ENGN_StateRunning_GoingToSampleComplete New State:ENGN_StateRunning_WaitSampling14:13:28.2 
+14:13:28.2 Step started at: 14:13:23
+14:13:28.2 XYZ movement time  = 4413 ms
+14:13:28.2 + Scan start delay = 4347 ms
+14:13:28.4 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling14:13:28.4 
+14:14:35.3 Integration Time:  2.9, 2.6, 2.3, 3.0, 2.5, 3.0, 2.0, 2.7,
+14:14:35.6 Plate temperature = 25 C
+14:17:28.0 
+14:17:28.0 STOP SCAN: 
+14:17:28.0    CycleTime (ms)    = 200
+14:17:28.0    CurrentCycle      = 1200
+14:17:28.0    RunTime (ms)      = 239958
+14:17:28.0    AverageCycle (ms) = 199
+14:17:28.0    DATA OVERRUN %    = 0.00
+14:17:28.0 
+14:17:28.0 Old State:16-cycle=1200, Elapsed Time:  239.8,  Ideal Time:  239.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete14:17:28.0 
+14:17:28.2 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitNewStep14:17:28.2 
+14:17:28.6 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep14:17:28.6 
+14:17:28.6 StartShaker(1000)
+14:17:29.0 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample14:17:29.0 
+14:17:29.0 Sample96_Q(0, 3)
+14:17:29.2 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample14:17:29.2 
+14:17:34.1 
+14:17:34.1 START SCAN: 
+14:17:34.1    CycleTime (ms)    = 200
+14:17:34.1    CycleCount        = 1500
+14:17:34.1    ScansToAverage    = 20
+14:17:34.1    SleepRemaining    = 1
+14:17:34.1 
+14:17:34.2 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete14:17:34.2 
+14:17:34.3 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling14:17:34.3 
+14:17:34.3 Step started at: 14:17:29
+14:17:34.3 XYZ movement time  = 5098 ms
+14:17:34.3 + Scan start delay = 5060 ms
+14:17:34.4 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling14:17:34.4 
+14:18:54.2 
+14:18:54.2 STOP SCAN: 
+14:18:54.2    CycleTime (ms)    = 200
+14:18:54.2    CurrentCycle      = 401
+14:18:54.2    RunTime (ms)      = 80159
+14:18:54.2    AverageCycle (ms) = 199
+14:18:54.2    DATA OVERRUN %    = 0.00
+14:18:54.2 
+14:18:54.3 Old State:16-cycle=401, Elapsed Time:   80.0,  Ideal Time:   80.0,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped14:18:54.3 
+14:18:54.4 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep14:18:54.4 
+14:18:54.5 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep14:18:54.5 
+14:18:54.5 StartShaker(1000)
+14:18:54.9 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample14:18:54.9 
+14:18:54.9 Sample96_Q(0, 0)
+14:18:55.1 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample14:18:55.1 
+14:18:59.9 
+14:18:59.9 START SCAN: 
+14:18:59.9    CycleTime (ms)    = 200
+14:18:59.9    CycleCount        = 1200
+14:18:59.9    ScansToAverage    = 20
+14:18:59.9    SleepRemaining    = 1
+14:18:59.9 
+14:19:00.1 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete14:19:00.1 
+14:19:00.2 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling14:19:00.2 
+14:19:00.2 Step started at: 14:18:55
+14:19:00.2 XYZ movement time  = 5060 ms
+14:19:00.2 + Scan start delay = 5031 ms
+14:19:00.3 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling14:19:00.3 
+14:22:14.5 
+14:22:14.5 STOP SCAN: 
+14:22:14.5    CycleTime (ms)    = 200
+14:22:14.5    CurrentCycle      = 973
+14:22:14.5    RunTime (ms)      = 194558
+14:22:14.5    AverageCycle (ms) = 199
+14:22:14.5    DATA OVERRUN %    = 0.00
+14:22:14.5 
+14:22:14.6 Old State:16-cycle=973, Elapsed Time:  194.4,  Ideal Time:  194.4,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped14:22:14.6 
+14:22:14.7 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep14:22:14.7 
+14:22:14.9 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep14:22:14.9 
+14:22:15.0 StartShaker(1000)
+14:22:15.3 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample14:22:15.3 
+14:22:15.3 Sample96_Q(0, 2)
+14:22:15.5 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample14:22:15.5 
+14:22:20.2 
+14:22:20.2 START SCAN: 
+14:22:20.2    CycleTime (ms)    = 200
+14:22:20.2    CycleCount        = 9000
+14:22:20.2    ScansToAverage    = 20
+14:22:20.2    SleepRemaining    = 1
+14:22:20.2 
+14:22:20.4 Old State:13-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_GoingToSampleComplete14:22:20.4 
+14:22:20.5 Old State:14-ENGN_StateRunning_GoingToSampleComplete New State:ENGN_StateRunning_WaitSampling14:22:20.5 
+14:22:20.5 Step started at: 14:22:15
+14:22:20.5 XYZ movement time  = 4941 ms
+14:22:20.5 + Scan start delay = 4878 ms
+14:22:20.6 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling14:22:20.6 
+14:26:01.0 
+14:26:01.0 STOP SCAN: 
+14:26:01.0    CycleTime (ms)    = 200
+14:26:01.0    CurrentCycle      = 1104
+14:26:01.0    RunTime (ms)      = 220757
+14:26:01.0    AverageCycle (ms) = 199
+14:26:01.0    DATA OVERRUN %    = 0.00
+14:26:01.0 
+14:26:01.1 Old State:16-cycle=1104, Elapsed Time:  220.6,  Ideal Time:  220.6,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped14:26:01.1 
+14:26:01.2 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep14:26:01.2 
+14:26:01.3 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep14:26:01.3 
+14:26:01.3 StartShaker(1000)
+14:26:01.7 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample14:26:01.7 
+14:26:01.7 Sample96_Q(0, 0)
+14:26:01.9 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample14:26:01.9 
+14:26:06.4 
+14:26:06.4 START SCAN: 
+14:26:06.4    CycleTime (ms)    = 200
+14:26:06.4    CycleCount        = 1000
+14:26:06.4    ScansToAverage    = 20
+14:26:06.4    SleepRemaining    = 1
+14:26:06.4 
+14:26:06.5 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete14:26:06.5 
+14:26:06.6 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling14:26:06.6 
+14:26:06.6 Step started at: 14:26:01
+14:26:06.6 XYZ movement time  = 4652 ms
+14:26:06.6 + Scan start delay = 4662 ms
+14:26:06.7 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling14:26:06.7 
+14:29:26.3 
+14:29:26.3 STOP SCAN: 
+14:29:26.3    CycleTime (ms)    = 200
+14:29:26.3    CurrentCycle      = 1000
+14:29:26.3    RunTime (ms)      = 199958
+14:29:26.3    AverageCycle (ms) = 199
+14:29:26.3    DATA OVERRUN %    = 0.00
+14:29:26.3 
+14:29:26.5 Old State:16-cycle=1000, Elapsed Time:  199.8,  Ideal Time:  199.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete14:29:26.5 
+14:29:26.6 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitEjecting14:29:26.6 
+14:29:26.6 EJECT: To Chute, position=0
+14:29:26.8 Old State:19-ENGN_StateRunning_WaitEjecting New State:ENGN_StateRunning_Ejecting14:29:26.8 
+14:29:46.0 Old State:20-ENGN_StateRunning_Ejecting New State:ENGN_StateRunning_EjectingComplete14:29:46.0 
+14:29:46.1 Old State:21-ENGN_StateRunning_EjectingComplete New State:ENGN_StateRunning_Finished14:29:46.1 
+14:29:46.2 Old State:22-ENGN_StateRunning_Finished New State:ENGN_State_SystemReady14:29:46.2 
+14:46:48.7 MultiWellPlate: DLL_PROCESS_DETACH.
+14:46:52.2 MultiWellPlate: DLL_PROCESS_DETACH.
+14:53:46.7 bShakeWhileWaiting=1, nShakerRPM=1000
+14:53:46.8 Old State:4-ENGN_State_SystemReady New State:ENGN_State_ControllerBusy14:53:46.8 
+14:53:47.8 StartShaker(1000)
+14:53:47.8 Old State:29-ENGN_State_ControllerBusy New State:ENGN_State_ControllerDone14:53:47.8 
+14:53:47.9 Old State:30-ENGN_State_ControllerDone New State:ENGN_State_SystemReady14:53:47.9 
+15:00:27.8 Starting new assay15:00:27.8 
+15:00:28.0 Old State:4-ENGN_State_SystemReady New State:ENGN_StateRunning_StartNewStep15:00:28.0 
+15:00:28.0 Plate temperature = 25 C
+15:00:28.1 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitPickingSensors15:00:28.1 
+15:00:28.3 Old State:7-ENGN_StateRunning_WaitPickingSensors New State:ENGN_StateRunning_PickingSensors15:00:28.3 
+15:00:36.6 Old State:8-ENGN_StateRunning_PickingSensors New State:ENGN_StateRunning_CheckingSensors15:00:36.6 
+15:00:36.8 
+15:00:36.8 Detect Sensors
+15:00:36.8 ==============
+15:00:36.8 1	YES		8.4	4920.4
+15:00:36.8 2	YES		8.2	5668.9
+15:00:36.8 3	YES		8.9	6711.3
+15:00:36.8 4	YES		8.4	4714.4
+15:00:36.8 5	YES		8.4	6176.0
+15:00:36.8 6	YES		8.1	5019.7
+15:00:36.8 7	YES		7.9	6899.1
+15:00:36.8 8	YES		8.2	5526.6
+15:00:36.8 
+15:00:37.0 CH1: Correction Factor = 2.70787
+15:00:37.0 CH2: Correction Factor = 2.31748
+15:00:37.0 CH3: Correction Factor = 2.07225
+15:00:37.0 CH4: Correction Factor = 2.86907
+15:00:37.0 CH5: Correction Factor = 2.31188
+15:00:37.0 CH6: Correction Factor = 2.6995
+15:00:37.0 CH7: Correction Factor = 1.93885
+15:00:37.0 CH8: Correction Factor = 2.51757
+15:00:37.2 CH1: Correction Factor = 1.07671
+15:00:37.2 CH2: Correction Factor = 1.07191
+15:00:37.2 CH3: Correction Factor = 1.06165
+15:00:37.2 CH4: Correction Factor = 1.08113
+15:00:37.2 CH5: Correction Factor = 1.06729
+15:00:37.2 CH6: Correction Factor = 1.06642
+15:00:37.2 CH7: Correction Factor = 1.06495
+15:00:37.2 CH8: Correction Factor = 1.07625
+15:00:37.3 CH1: Correction Factor = 1.0085
+15:00:37.3 CH2: Correction Factor = 1.00767
+15:00:37.3 CH3: Correction Factor = 1.00675
+15:00:37.3 CH4: Correction Factor = 1.00695
+15:00:37.3 CH5: Correction Factor = 1.01021
+15:00:37.3 CH6: Correction Factor = 1.01081
+15:00:37.3 CH7: Correction Factor = 1.00647
+15:00:37.3 CH8: Correction Factor = 1.00647
+15:00:37.5 CH1: Correction Factor = 0.999595
+15:00:37.5 CH2: Correction Factor = 1.00072
+15:00:37.5 CH3: Correction Factor = 1.00281
+15:00:37.5 CH4: Correction Factor = 0.998239
+15:00:37.5 CH5: Correction Factor = 0.999556
+15:00:37.5 CH6: Correction Factor = 0.998855
+15:00:37.5 CH7: Correction Factor = 1.00217
+15:00:37.5 CH8: Correction Factor = 1.00353
+15:00:37.5 Sensor 1: Integration Time = 2.9 ms
+15:00:37.5 Sensor 2: Integration Time = 2.5 ms
+15:00:37.5 Sensor 3: Integration Time = 2.2 ms
+15:00:37.5 Sensor 4: Integration Time = 3.1 ms
+15:00:37.5 Sensor 5: Integration Time = 2.5 ms
+15:00:37.5 Sensor 6: Integration Time = 2.9 ms
+15:00:37.5 Sensor 7: Integration Time = 2.1 ms
+15:00:37.5 Sensor 8: Integration Time = 2.7 ms
+15:00:37.5 WaitControllerIdle(30000)
+15:00:43.9 Old State:9-ENGN_StateRunning_CheckingSensors New State:ENGN_StateRunning_PickingSensorsComplete15:00:43.9 
+15:00:43.9 StartShaker(1000)
+15:00:43.9 Integration Time:  2.9, 2.5, 2.2, 3.1, 2.5, 2.9, 2.1, 2.7,
+15:00:44.1 Plate temperature = 25 C
+15:00:44.3 Old State:10-ENGN_StateRunning_PickingSensorsComplete New State:ENGN_StateRunning_WaitGoingToSample15:00:44.3 
+15:00:44.3 Sample96_Q(0, 0)
+15:00:44.5 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample15:00:44.5 
+15:00:48.6 
+15:00:48.6 START SCAN: 
+15:00:48.6    CycleTime (ms)    = 200
+15:00:48.6    CycleCount        = 1200
+15:00:48.6    ScansToAverage    = 20
+15:00:48.6    SleepRemaining    = 1
+15:00:48.6 
+15:00:48.8 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete15:00:48.8 
+15:00:48.9 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling15:00:48.9 
+15:00:48.9 Step started at: 15:00:44
+15:00:48.9 XYZ movement time  = 4378 ms
+15:00:48.9 + Scan start delay = 4352 ms
+15:00:49.0 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling15:00:49.0 
+15:04:48.6 
+15:04:48.6 STOP SCAN: 
+15:04:48.6    CycleTime (ms)    = 200
+15:04:48.6    CurrentCycle      = 1200
+15:04:48.6    RunTime (ms)      = 239958
+15:04:48.6    AverageCycle (ms) = 199
+15:04:48.6    DATA OVERRUN %    = 0.00
+15:04:48.6 
+15:04:48.7 Old State:16-cycle=1200, Elapsed Time:  239.8,  Ideal Time:  239.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete15:04:48.7 
+15:04:48.8 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitNewStep15:04:48.8 
+15:04:48.9 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep15:04:48.9 
+15:04:48.9 StartShaker(1000)
+15:04:49.3 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample15:04:49.3 
+15:04:49.3 Sample96_Q(0, 1)
+15:04:49.5 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample15:04:49.5 
+15:04:53.7 
+15:04:53.7 START SCAN: 
+15:04:53.7    CycleTime (ms)    = 200
+15:04:53.7    CycleCount        = 1500
+15:04:53.7    ScansToAverage    = 20
+15:04:53.7    SleepRemaining    = 1
+15:04:53.7 
+15:04:53.8 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete15:04:53.8 
+15:04:54.0 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling15:04:54.0 
+15:04:54.0 Step started at: 15:04:49
+15:04:54.0 XYZ movement time  = 4436 ms
+15:04:54.0 + Scan start delay = 4409 ms
+15:04:54.0 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling15:04:54.0 
+15:08:02.9 
+15:08:02.9 STOP SCAN: 
+15:08:02.9    CycleTime (ms)    = 200
+15:08:02.9    CurrentCycle      = 946
+15:08:02.9    RunTime (ms)      = 189157
+15:08:02.9    AverageCycle (ms) = 199
+15:08:02.9    DATA OVERRUN %    = 0.00
+15:08:02.9 
+15:08:03.0 Old State:16-cycle=946, Elapsed Time:  189.0,  Ideal Time:  189.0,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped15:08:03.0 
+15:08:03.1 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep15:08:03.1 
+15:08:03.5 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep15:08:03.5 
+15:08:03.5 StartShaker(1000)
+15:08:03.9 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample15:08:03.9 
+15:08:03.9 Sample96_Q(0, 0)
+15:08:04.1 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample15:08:04.1 
+15:08:08.3 
+15:08:08.3 START SCAN: 
+15:08:08.3    CycleTime (ms)    = 200
+15:08:08.3    CycleCount        = 1200
+15:08:08.3    ScansToAverage    = 20
+15:08:08.3    SleepRemaining    = 1
+15:08:08.3 
+15:08:08.4 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete15:08:08.4 
+15:08:08.5 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling15:08:08.5 
+15:08:08.5 Step started at: 15:08:04
+15:08:08.5 XYZ movement time  = 4385 ms
+15:08:08.5 + Scan start delay = 4358 ms
+15:08:08.6 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling15:08:08.6 
+15:12:08.2 
+15:12:08.2 STOP SCAN: 
+15:12:08.2    CycleTime (ms)    = 200
+15:12:08.2    CurrentCycle      = 1200
+15:12:08.2    RunTime (ms)      = 239957
+15:12:08.2    AverageCycle (ms) = 199
+15:12:08.2    DATA OVERRUN %    = 0.00
+15:12:08.2 
+15:12:08.3 Old State:16-cycle=1200, Elapsed Time:  239.8,  Ideal Time:  239.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete15:12:08.3 
+15:12:08.4 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitNewStep15:12:08.4 
+15:12:08.5 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep15:12:08.5 
+15:12:08.5 StartShaker(1000)
+15:12:08.9 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample15:12:08.9 
+15:12:08.9 Sample96_Q(0, 3)
+15:12:09.1 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample15:12:09.1 
+15:12:14.1 
+15:12:14.1 START SCAN: 
+15:12:14.1    CycleTime (ms)    = 200
+15:12:14.1    CycleCount        = 9000
+15:12:14.1    ScansToAverage    = 20
+15:12:14.1    SleepRemaining    = 1
+15:12:14.1 
+15:12:14.2 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete15:12:14.2 
+15:12:14.3 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling15:12:14.3 
+15:12:14.3 Step started at: 15:12:09
+15:12:14.3 XYZ movement time  = 5154 ms
+15:12:14.3 + Scan start delay = 5128 ms
+15:12:14.4 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling15:12:14.4 
+15:38:20.2 
+15:38:20.2 STOP SCAN: 
+15:38:20.2    CycleTime (ms)    = 200
+15:38:20.2    CurrentCycle      = 7831
+15:38:20.2    RunTime (ms)      = 1566156
+15:38:20.2    AverageCycle (ms) = 199
+15:38:20.2    DATA OVERRUN %    = 0.00
+15:38:20.2 
+15:38:20.3 Old State:16-cycle=7831, Elapsed Time: 1566.0,  Ideal Time: 1566.0,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped15:38:20.3 
+15:38:20.5 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep15:38:20.5 
+15:38:20.7 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep15:38:20.7 
+15:38:20.8 StartShaker(1000)
+15:38:21.2 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample15:38:21.2 
+15:38:21.2 Sample96_Q(0, 0)
+15:38:21.4 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample15:38:21.4 
+15:38:26.3 
+15:38:26.3 START SCAN: 
+15:38:26.3    CycleTime (ms)    = 200
+15:38:26.3    CycleCount        = 1000
+15:38:26.3    ScansToAverage    = 20
+15:38:26.3    SleepRemaining    = 1
+15:38:26.3 
+15:38:26.4 Old State:13-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_GoingToSampleComplete15:38:26.4 
+15:38:26.5 Old State:14-ENGN_StateRunning_GoingToSampleComplete New State:ENGN_StateRunning_WaitSampling15:38:26.5 
+15:38:26.5 Step started at: 15:38:21
+15:38:26.5 XYZ movement time  = 5165 ms
+15:38:26.5 + Scan start delay = 5099 ms
+15:38:26.6 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling15:38:26.6 
+15:40:04.4 
+15:40:04.4 STOP SCAN: 
+15:40:04.4    CycleTime (ms)    = 200
+15:40:04.4    CurrentCycle      = 491
+15:40:04.4    RunTime (ms)      = 98158
+15:40:04.4    AverageCycle (ms) = 199
+15:40:04.4    DATA OVERRUN %    = 0.00
+15:40:04.4 
+15:40:04.5 Old State:16-cycle=491, Elapsed Time:   98.0,  Ideal Time:   98.0,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped15:40:04.5 
+15:40:04.6 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitEjecting15:40:04.6 
+15:40:04.6 EJECT: To Chute, position=0
+15:40:04.9 Old State:19-ENGN_StateRunning_WaitEjecting New State:ENGN_StateRunning_Ejecting15:40:04.9 
+15:40:24.0 Old State:20-ENGN_StateRunning_Ejecting New State:ENGN_StateRunning_EjectingComplete15:40:24.0 
+15:40:24.1 Old State:21-ENGN_StateRunning_EjectingComplete New State:ENGN_StateRunning_Finished15:40:24.1 
+15:40:24.2 Old State:22-ENGN_StateRunning_Finished New State:ENGN_State_SystemReady15:40:24.2 
+15:41:58.7 bShakeWhileWaiting=1, nShakerRPM=1000
+15:41:58.8 Old State:4-ENGN_State_SystemReady New State:ENGN_State_ControllerBusy15:41:58.8 
+15:41:59.7 Old State:29-ENGN_State_ControllerBusy New State:ENGN_State_ControllerDone15:41:59.7 
+15:41:59.8 StartShaker(1000)
+15:41:59.8 Old State:30-ENGN_State_ControllerDone New State:ENGN_State_SystemReady15:41:59.8 
+15:42:04.7 Starting new assay15:42:04.7 
+15:42:05.0 Plate temperature = 25 C
+15:42:05.0 Old State:4-ENGN_State_SystemReady New State:ENGN_StateRunning_StartNewStep15:42:05.0 
+15:42:05.1 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitPickingSensors15:42:05.1 
+15:42:05.2 Old State:7-ENGN_StateRunning_WaitPickingSensors New State:ENGN_StateRunning_PickingSensors15:42:05.2 
+15:42:13.6 Old State:8-ENGN_StateRunning_PickingSensors New State:ENGN_StateRunning_CheckingSensors15:42:13.6 
+15:42:13.8 
+15:42:13.8 Detect Sensors
+15:42:13.8 ==============
+15:42:13.8 1	YES		8.4	4887.3
+15:42:13.8 2	YES		8.2	5592.2
+15:42:13.8 3	YES		8.9	6689.5
+15:42:13.8 4	YES		8.4	4502.7
+15:42:13.8 5	YES		8.4	6081.8
+15:42:13.8 6	YES		8.1	4978.7
+15:42:13.8 7	YES		7.9	7183.1
+15:42:13.8 8	YES		8.2	5458.4
+15:42:13.8 
+15:42:13.9 CH1: Correction Factor = 2.74233
+15:42:13.9 CH2: Correction Factor = 2.33166
+15:42:13.9 CH3: Correction Factor = 2.02128
+15:42:13.9 CH4: Correction Factor = 2.99704
+15:42:13.9 CH5: Correction Factor = 2.31517
+15:42:13.9 CH6: Correction Factor = 2.66983
+15:42:13.9 CH7: Correction Factor = 1.81793
+15:42:13.9 CH8: Correction Factor = 2.52037
+15:42:14.1 CH1: Correction Factor = 1.07832
+15:42:14.1 CH2: Correction Factor = 1.09737
+15:42:14.1 CH3: Correction Factor = 1.06186
+15:42:14.1 CH4: Correction Factor = 1.07978
+15:42:14.1 CH5: Correction Factor = 1.07098
+15:42:14.1 CH6: Correction Factor = 1.06906
+15:42:14.1 CH7: Correction Factor = 1.06259
+15:42:14.1 CH8: Correction Factor = 1.07643
+15:42:14.2 CH1: Correction Factor = 1.01123
+15:42:14.2 CH2: Correction Factor = 0.99138
+15:42:14.2 CH3: Correction Factor = 1.00981
+15:42:14.2 CH4: Correction Factor = 1.01261
+15:42:14.2 CH5: Correction Factor = 1.01306
+15:42:14.2 CH6: Correction Factor = 1.0126
+15:42:14.2 CH7: Correction Factor = 1.00515
+15:42:14.2 CH8: Correction Factor = 1.01262
+15:42:14.4 CH1: Correction Factor = 0.999683
+15:42:14.4 CH2: Correction Factor = 0.998021
+15:42:14.4 CH3: Correction Factor = 1.00155
+15:42:14.4 CH4: Correction Factor = 0.999087
+15:42:14.4 CH5: Correction Factor = 1.00028
+15:42:14.4 CH6: Correction Factor = 0.998313
+15:42:14.4 CH7: Correction Factor = 1.00069
+15:42:14.4 CH8: Correction Factor = 1.00145
+15:42:14.4 Sensor 1: Integration Time = 3.0 ms
+15:42:14.4 Sensor 2: Integration Time = 2.5 ms
+15:42:14.4 Sensor 3: Integration Time = 2.2 ms
+15:42:14.4 Sensor 4: Integration Time = 3.3 ms
+15:42:14.4 Sensor 5: Integration Time = 2.5 ms
+15:42:14.4 Sensor 6: Integration Time = 2.9 ms
+15:42:14.4 Sensor 7: Integration Time = 1.9 ms
+15:42:14.4 Sensor 8: Integration Time = 2.8 ms
+15:42:14.4 WaitControllerIdle(30000)
+15:42:20.8 Old State:9-ENGN_StateRunning_CheckingSensors New State:ENGN_StateRunning_PickingSensorsComplete15:42:20.8 
+15:42:20.8 StartShaker(1000)
+15:42:20.8 Integration Time:  3.0, 2.5, 2.2, 3.3, 2.5, 2.9, 1.9, 2.8,
+15:42:21.0 Plate temperature = 25 C
+15:42:21.2 Old State:10-ENGN_StateRunning_PickingSensorsComplete New State:ENGN_StateRunning_WaitGoingToSample15:42:21.2 
+15:42:21.2 Sample96_Q(0, 0)
+15:42:21.5 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample15:42:21.5 
+15:42:25.6 
+15:42:25.6 START SCAN: 
+15:42:25.6    CycleTime (ms)    = 200
+15:42:25.6    CycleCount        = 1200
+15:42:25.6    ScansToAverage    = 20
+15:42:25.6    SleepRemaining    = 1
+15:42:25.6 
+15:42:25.7 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete15:42:25.7 
+15:42:25.8 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling15:42:25.8 
+15:42:25.8 Step started at: 15:42:21
+15:42:25.8 XYZ movement time  = 4352 ms
+15:42:25.8 + Scan start delay = 4362 ms
+15:42:25.9 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling15:42:25.9 
+15:46:25.6 
+15:46:25.6 STOP SCAN: 
+15:46:25.6    CycleTime (ms)    = 200
+15:46:25.6    CurrentCycle      = 1200
+15:46:25.6    RunTime (ms)      = 239958
+15:46:25.6    AverageCycle (ms) = 199
+15:46:25.6    DATA OVERRUN %    = 0.00
+15:46:25.6 
+15:46:25.6 Old State:16-cycle=1200, Elapsed Time:  239.8,  Ideal Time:  239.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete15:46:25.6 
+15:46:25.7 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitNewStep15:46:25.7 
+15:46:26.1 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep15:46:26.1 
+15:46:26.2 StartShaker(1000)
+15:46:26.5 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample15:46:26.5 
+15:46:26.5 Sample96_Q(0, 2)
+15:46:26.7 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample15:46:26.7 
+15:46:31.3 
+15:46:31.3 START SCAN: 
+15:46:31.3    CycleTime (ms)    = 200
+15:46:31.3    CycleCount        = 1500
+15:46:31.3    ScansToAverage    = 20
+15:46:31.3    SleepRemaining    = 1
+15:46:31.3 
+15:46:31.5 Old State:13-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_GoingToSampleComplete15:46:31.5 
+15:46:31.6 Old State:14-ENGN_StateRunning_GoingToSampleComplete New State:ENGN_StateRunning_WaitSampling15:46:31.6 
+15:46:31.6 Step started at: 15:46:26
+15:46:31.6 XYZ movement time  = 4847 ms
+15:46:31.6 + Scan start delay = 4781 ms
+15:46:31.7 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling15:46:31.7 
+15:51:31.3 
+15:51:31.3 STOP SCAN: 
+15:51:31.3    CycleTime (ms)    = 200
+15:51:31.3    CurrentCycle      = 1500
+15:51:31.3    RunTime (ms)      = 299959
+15:51:31.3    AverageCycle (ms) = 199
+15:51:31.3    DATA OVERRUN %    = 0.00
+15:51:31.3 
+15:51:31.3 Old State:16-cycle=1500, Elapsed Time:  299.8,  Ideal Time:  299.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete15:51:31.3 
+15:51:31.5 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitNewStep15:51:31.5 
+15:51:31.7 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep15:51:31.7 
+15:51:31.7 StartShaker(1000)
+15:51:32.1 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample15:51:32.1 
+15:51:32.1 Sample96_Q(0, 0)
+15:51:32.3 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample15:51:32.3 
+15:51:36.9 
+15:51:36.9 START SCAN: 
+15:51:36.9    CycleTime (ms)    = 200
+15:51:36.9    CycleCount        = 1200
+15:51:36.9    ScansToAverage    = 20
+15:51:36.9    SleepRemaining    = 1
+15:51:36.9 
+15:51:37.1 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete15:51:37.1 
+15:51:37.2 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling15:51:37.2 
+15:51:37.2 Step started at: 15:51:32
+15:51:37.2 XYZ movement time  = 4869 ms
+15:51:37.2 + Scan start delay = 4843 ms
+15:51:37.3 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling15:51:37.3 
+15:55:36.9 
+15:55:36.9 STOP SCAN: 
+15:55:36.9    CycleTime (ms)    = 200
+15:55:36.9    CurrentCycle      = 1200
+15:55:36.9    RunTime (ms)      = 239958
+15:55:36.9    AverageCycle (ms) = 199
+15:55:36.9    DATA OVERRUN %    = 0.00
+15:55:36.9 
+15:55:37.0 Old State:16-cycle=1200, Elapsed Time:  239.8,  Ideal Time:  239.8,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingComplete15:55:37.0 
+15:55:37.1 Old State:18-ENGN_StateRunning_SamplingComplete New State:ENGN_StateRunning_WaitNewStep15:55:37.1 
+15:55:37.5 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep15:55:37.5 
+15:55:37.5 StartShaker(1000)
+15:55:37.9 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample15:55:37.9 
+15:55:37.9 Sample96_Q(0, 3)
+15:55:38.1 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample15:55:38.1 
+15:55:42.9 
+15:55:42.9 START SCAN: 
+15:55:42.9    CycleTime (ms)    = 200
+15:55:42.9    CycleCount        = 9000
+15:55:42.9    ScansToAverage    = 20
+15:55:42.9    SleepRemaining    = 1
+15:55:42.9 
+15:55:43.0 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete15:55:43.0 
+15:55:43.1 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling15:55:43.1 
+15:55:43.1 Step started at: 15:55:38
+15:55:43.1 XYZ movement time  = 5005 ms
+15:55:43.1 + Scan start delay = 5005 ms
+15:55:43.2 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling15:55:43.2 
+16:23:54.5 
+16:23:54.5 STOP SCAN: 
+16:23:54.5    CycleTime (ms)    = 200
+16:23:54.5    CurrentCycle      = 8458
+16:23:54.5    RunTime (ms)      = 1691557
+16:23:54.5    AverageCycle (ms) = 199
+16:23:54.5    DATA OVERRUN %    = 0.00
+16:23:54.5 
+16:23:54.6 Old State:16-cycle=8458, Elapsed Time: 1691.4,  Ideal Time: 1691.4,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped16:23:54.6 
+16:23:54.7 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitNewStep16:23:54.7 
+16:23:54.9 Old State:5-ENGN_StateRunning_WaitNewStep New State:ENGN_StateRunning_StartNewStep16:23:54.9 
+16:23:54.9 StartShaker(1000)
+16:23:55.3 Old State:6-ENGN_StateRunning_StartNewStep New State:ENGN_StateRunning_WaitGoingToSample16:23:55.3 
+16:23:55.3 Sample96_Q(0, 0)
+16:23:55.5 Old State:12-ENGN_StateRunning_WaitGoingToSample New State:ENGN_StateRunning_GoingToSample16:23:55.5 
+16:24:00.4 
+16:24:00.4 START SCAN: 
+16:24:00.4    CycleTime (ms)    = 200
+16:24:00.4    CycleCount        = 1000
+16:24:00.4    ScansToAverage    = 20
+16:24:00.4    SleepRemaining    = 1
+16:24:00.4 
+16:24:00.5 Old State:13-ENGN_StateRunning_GoingToSample New State:ENGN_StateRunning_GoingToSampleComplete16:24:00.5 
+16:24:00.6 Old State:14-cycle=1, Elapsed Time:    0.0,  Ideal Time:    0.0,  Delay time =   0.00  New State:ENGN_StateRunning_WaitSampling16:24:00.6 
+16:24:00.6 Step started at: 16:23:55
+16:24:00.6 XYZ movement time  = 5090 ms
+16:24:00.6 + Scan start delay = 5060 ms
+16:24:00.7 Old State:15-ENGN_StateRunning_WaitSampling New State:ENGN_StateRunning_Sampling16:24:00.7 
+16:24:09.1 
+16:24:09.1 STOP SCAN: 
+16:24:09.1    CycleTime (ms)    = 200
+16:24:09.1    CurrentCycle      = 44
+16:24:09.1    RunTime (ms)      = 8759
+16:24:09.1    AverageCycle (ms) = 199
+16:24:09.1    DATA OVERRUN %    = 0.00
+16:24:09.1 
+16:24:09.3 Old State:16-cycle=44, Elapsed Time:    8.6,  Ideal Time:    8.6,  Delay time =   0.04  New State:ENGN_StateRunning_SamplingSkipped16:24:09.3 
+16:24:09.4 Old State:17-ENGN_StateRunning_SamplingSkipped New State:ENGN_StateRunning_WaitEjecting16:24:09.4 
+16:24:09.4 EJECT: To Chute, position=0
+16:24:09.6 Old State:19-ENGN_StateRunning_WaitEjecting New State:ENGN_StateRunning_Ejecting16:24:09.6 
+16:24:28.6 Old State:20-ENGN_StateRunning_Ejecting New State:ENGN_StateRunning_EjectingComplete16:24:28.6 
+16:24:28.7 Old State:21-ENGN_StateRunning_EjectingComplete New State:ENGN_StateRunning_Finished16:24:28.7 
+16:24:28.8 Old State:22-ENGN_StateRunning_Finished New State:ENGN_State_SystemReady16:24:28.8 

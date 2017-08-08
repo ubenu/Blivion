@@ -1,0 +1,62 @@
+2012/05/24 12:36:06	Instrument is busy
+2012/05/24 12:36:07	Instrument is finished
+2012/05/24 12:36:07	Ready
+2012/05/24 12:36:11	Experiment started
+2012/05/24 12:36:11	Starting new step
+2012/05/24 12:36:11	Plate temperature = 25 C
+2012/05/24 12:36:11	Waiting to pick up sensor location A1
+2012/05/24 12:36:11	Picking sensors location A1
+2012/05/24 12:36:20	Checking sensors location A1
+2012/05/24 12:36:21	Sensor 1: Integration Time = 2.8 ms
+2012/05/24 12:36:21	Sensor 2: Integration Time = 2.6 ms
+2012/05/24 12:36:21	Sensor 3: Integration Time = 2.1 ms
+2012/05/24 12:36:21	Sensor 4: Integration Time = 3.2 ms
+2012/05/24 12:36:21	Sensor 5: Integration Time = 2.4 ms
+2012/05/24 12:36:21	Sensor 6: Integration Time = 3.0 ms
+2012/05/24 12:36:21	Sensor 7: Integration Time = 2.1 ms
+2012/05/24 12:36:21	Sensor 8: Integration Time = 2.7 ms
+2012/05/24 12:36:27	Picking sensors completed location A1
+2012/05/24 12:36:27	Plate temperature = 25 C
+2012/05/24 12:36:28	Ready to move to sample location A1
+2012/05/24 12:36:28	Moving to sample location A1
+2012/05/24 12:36:32	Arrived at sample location A1
+2012/05/24 12:36:32	Waiting to start sample location A1
+2012/05/24 12:36:32	Processing sample location A1
+2012/05/24 12:40:32	Sample completed location A1
+2012/05/24 12:40:32	Waiting to start new step
+2012/05/24 12:40:32	Starting new step
+2012/05/24 12:40:33	Ready to move to sample location A2
+2012/05/24 12:40:33	Moving to sample location A2
+2012/05/24 12:40:37	Arrived at sample location A2
+2012/05/24 12:40:37	Waiting to start sample location A2
+2012/05/24 12:40:37	Processing sample location A2
+2012/05/24 12:41:39	Assay step skipped
+2012/05/24 12:41:39	Waiting to start new step
+2012/05/24 12:41:40	Starting new step
+2012/05/24 12:41:40	Ready to move to sample location A1
+2012/05/24 12:41:40	Moving to sample location A1
+2012/05/24 12:41:45	Arrived at sample location A1
+2012/05/24 12:41:45	Waiting to start sample location A1
+2012/05/24 12:41:45	Processing sample location A1
+2012/05/24 12:45:44	Sample completed location A1
+2012/05/24 12:45:45	Waiting to start new step
+2012/05/24 12:45:45	Starting new step
+2012/05/24 12:45:45	Ready to move to sample location A4
+2012/05/24 12:45:45	Moving to sample location A4
+2012/05/24 12:45:50	Arrived at sample location A4
+2012/05/24 12:45:50	Waiting to start sample location A4
+2012/05/24 12:45:50	Processing sample location A4
+2012/05/24 13:15:50	Sample completed location A4
+2012/05/24 13:15:50	Waiting to start new step
+2012/05/24 13:15:51	Starting new step
+2012/05/24 13:15:51	Ready to move to sample location A1
+2012/05/24 13:15:51	Moving to sample location A1
+2012/05/24 13:15:56	Arrived at sample location A1
+2012/05/24 13:15:57	Waiting to start sample location A1
+2012/05/24 13:15:57	Processing sample location A1
+2012/05/24 13:19:16	Sample completed location A1
+2012/05/24 13:19:16	Waiting for ejection start location A1
+2012/05/24 13:19:17	Ejecting sensor location A1
+2012/05/24 13:19:36	Ejecting completed location A1
+2012/05/24 13:19:36	Experiment finished
+2012/05/24 13:19:36	Ready
