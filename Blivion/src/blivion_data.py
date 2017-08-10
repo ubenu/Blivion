@@ -9,6 +9,8 @@ import numpy as np
 import pandas as pd
 from scipy.optimize import curve_fit
 
+from PyQt5.QtCore import QObject, pyqtSignal
+
 pd.options.mode.chained_assignment = None  
 ## suppresses unnecessary warning when creating self.working_data
 
@@ -16,9 +18,13 @@ pd.options.mode.chained_assignment = None
 # warnings.simplefilter(action = "ignore", category = RuntimeWarning)
 ## suppresses unnecessary runtime warnings when fitting data
 
-class BlivionData():
+class BlivionData(QObject):
     
-    def __init__(self):
+    progress_signal = pyqtSignal(float)    
+    
+    def __init__(self, ):
+        
+        super().__init__() 
         
         self.functions = {'fn_line': self.fn_straight_line,
                           'fn_1exp': self.fn_1exp,
@@ -69,7 +75,7 @@ class BlivionData():
             file.write('\n')
             file.write(f)
         
-    def set_baseline_measurements(self, start, stop):
+    def do_baseline_measurements(self, start, stop):
         if self.results is None:
             self.results = self._create_results_template(self.trace_ids) 
         indmin, indmax = self._get_span_indices(start, stop)
@@ -88,7 +94,7 @@ class BlivionData():
         self.residuals['baseline'] = res
         self.fitted['baseline'] = fit
             
-    def set_loads_measurements(self, start, stop):
+    def do_loads_measurements(self, start, stop):
         if self.results is None:
             self.results = self._create_results_template(self.trace_ids)            
         indmin, indmax = self._get_span_indices(start, stop)
@@ -107,9 +113,9 @@ class BlivionData():
         self.residuals['loaded'] = res
         self.fitted['loaded'] = fit
 
-    def set_association_measurements(self, start, stop):
+    def do_association_measurements(self, start, stop):
         self.process_log += "\n\n**** New attempt ****\n"
-        self.progress_monitor = 100.
+        self.progress_monitor = 0.0
         self.progress_monitor_step = self.progress_monitor / len(self.trace_ids)
         indmin, indmax = self._get_span_indices(start, stop)
         selection = self.working_data[indmin:indmax]
@@ -139,12 +145,12 @@ class BlivionData():
                     xtol *= 10.
                     out = curve_fit(func, x, y, p0=p_est, ftol=ftol, xtol=xtol, maxfev=250, full_output=1) 
                     params = out[0]
-                    covar = out[1]
+                    #covar = out[1]
                     nfev = out[2]['nfev']
                     log_entry = "\n" + trace + "\tnfev:" + str(nfev)+ "\tftol:" + str(ftol)
                     self.process_log += log_entry
-                    self.progress_monitor -= self.progress_monitor_step
-#                     print(self.progress_monitor)
+                    self.progress_monitor += self.progress_monitor_step
+                    self.progress_signal.emit(self.progress_monitor)
                 except ValueError as e:
                     log_entry = "\n" + trace + "\tValue Error (ass):" + str(e)
                     self.process_log += log_entry
@@ -196,7 +202,9 @@ class BlivionData():
                 x = data['Sugar loading']
                 y = data['Amplitude (obs)']
                 p_est = self.get_initial_estimates(self.frac_sat_func_id, x, y)
-                params, covar = curve_fit(func, x, y, p0=p_est, check_finite=False, method='trf')
+                out = curve_fit(func, x, y, p0=p_est, check_finite=False, method='trf')
+                params = out[0]
+                #covar = out[1]
             except ValueError as e:
                 log_entry = "\n" + "Value Error (frac sat):" + str(e)
                 self.process_log += log_entry
