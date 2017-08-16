@@ -57,7 +57,7 @@ class BlivionData(QObject):
         
         # Log and progress monitor
         self.process_log = ""
-        self.progress_monitor = 0
+        self.progress_monitor = 0.0
      
     def import_data(self, file_path):
         self.raw_data = pd.read_csv(file_path)
@@ -114,9 +114,9 @@ class BlivionData(QObject):
         self.fitted['loaded'] = fit
 
     def do_association_measurements(self, start, stop):
-        self.process_log += "\n\n**** New attempt ****\n"
+        self.process_log += "\n**** New attempt ****\n"
         self.progress_monitor = 0.0
-        self.progress_monitor_step = self.progress_monitor / len(self.trace_ids)
+        self.progress_monitor_step = 100.0 / len(self.trace_ids)
         indmin, indmax = self._get_span_indices(start, stop)
         selection = self.working_data[indmin:indmax]
         self.results['association'] = 0.0
@@ -147,19 +147,19 @@ class BlivionData(QObject):
                     params = out[0]
                     #covar = out[1]
                     nfev = out[2]['nfev']
-                    log_entry = "\n" + trace + "\tnfev:" + str(nfev)+ "\tftol:" + str(ftol)
+                    log_entry = "\n" + trace + "\tNumber of evaluations: " + '{:d}'.format(nfev) + "\tTolerance: " + '{:.1e}'.format(ftol)
                     self.process_log += log_entry
                     self.progress_monitor += self.progress_monitor_step
                     self.progress_signal.emit(self.progress_monitor)
                 except ValueError as e:
                     log_entry = "\n" + trace + "\tValue Error (ass):" + str(e)
-                    self.process_log += log_entry
+#                    self.process_log += log_entry
                 except RuntimeError as e:
                     log_entry = "\n" + trace + "\tRuntime Error (ass):" + str(e)
-#                     self.process_log += log_entry
+#                    self.process_log += log_entry
                 except:
                     log_entry = "\n" + trace + "\tOther error (ass)"
-                    self.process_log += log_entry
+#                    self.process_log += log_entry
                 
             if not params is None:
                 self.results['association'][trace] = params[0]
