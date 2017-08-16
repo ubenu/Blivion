@@ -71,7 +71,7 @@ class Main(widgets.QMainWindow, ui.Ui_MainWindow):
         self.statusBar.addPermanentWidget(self.progressBar)
         self.progressBar.setGeometry(30, 40, 200, 25)
         self.progressBar.setValue(0)
-        self.progressBar.hide() #.setVisible(False)
+        self.progressBar.hide()
         self.blivion_data.progress_signal.connect(self.on_progress_signal)
         
         self.statusBar.showMessage("Ready")
@@ -165,7 +165,6 @@ class Main(widgets.QMainWindow, ui.Ui_MainWindow):
             
     def on_get_association(self):
         if self.action_get_association.isChecked():
-#            self.progressBar.setVisible(True)
             if self.action_get_base.isEnabled() and self.action_get_base.isChecked():
                 self.action_get_base.setChecked(False)
             if self.action_get_loads.isEnabled() and self.action_get_loads.isChecked():
